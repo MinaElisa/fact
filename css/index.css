@@ -1,0 +1,199 @@
+/* index.css */
+html,body{min-height: 100%;}
+/* titleSiz:16px/18px，normalFont:14px，timeLabels size:8px */
+/* ------------------------------------ */
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+.LOGO{
+    font-size: 40px;
+    line-height: 80px;
+    padding-left:330px;
+    font-weight: bolder;
+    user-select: none;
+}
+nav ul{
+    margin-right: 330px;
+    user-select: none;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 30px;
+}
+/* ------------------------------------ */
+main{
+    width: 100%;
+    height: auto;
+    min-width: 100%;
+    min-height: 100vh;
+}
+.content{
+    width: 66%;
+    min-height: 90vh;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.Banner{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+.Banner div:first-child{
+    width: 40%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 44px;
+    position:relative;/*仅用于标题文本定位*/
+}
+.bannertitle p:first-of-type{font-size: 18px; margin-top: 10px;}
+.bannertitle p:last-of-type{font-size: 10px; position:absolute; bottom: 5%;}
+.Banner div:last-child{
+    width: 60%;
+    height: auto;
+}
+.Banner img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.featured{
+    width: 100%;
+    height: auto;
+    min-height: 30vh;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+.featured ul{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    list-style: none;
+}
+.featured ul li{
+    width: 25%;
+    height:auto;
+}
+.featured ul li a{
+    display: block;
+    height: auto;
+    font-size: 0;/*解决标签内的图片底部有缝隙*/
+    padding: 5px;
+    box-sizing: border-box;
+}
+.featured img{width: 100%;height: 100%;}
+.featured li>div{
+    height: 120px;
+    padding: 0 5px;
+    box-sizing: border-box;
+    position: relative;/*仅用于内部文本定位*/
+}
+.featured div p:first-child{font-size: 16px;}
+.featured div p:last-child {
+    font-size: 10px;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 5%;
+}
+.quickcontent{
+    width: 100%;
+    height: auto;
+    min-height: 20vh;
+    padding: 20px;
+    overflow: hidden;/*仅用于解决'它无法被子元素撑大'的问题*/
+    box-sizing: border-box;
+}
+.quickcontent ul{
+    float: left;
+    width: 70%;
+    height: auto;
+    padding-right: 10%;box-sizing: border-box;
+    list-style-type: none;
+}
+.quickcontent ul li{
+    height: auto;
+    margin: 10px 0;
+}
+.quickcontent>div{
+    float: left;
+    width: 29%;
+    height: auto;
+    box-sizing: border-box;
+    position: relative;/* 仅用于<h3>标题的定位 */
+}
+.quickcontent div h3{
+    width: 100%;
+    text-indent: 5%;
+    position: absolute;
+    top: 0px;
+}
+
+.emergency{
+    width: 100%;
+    height: auto;
+    min-height: 20vh;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+.emergency h2{padding-bottom: 20px;}
+.emergency>ul{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50% 50%;
+    width: 100%;
+    height: auto;
+    list-style: none;
+    box-sizing: border-box;
+}
+.emergency>ul>li{
+    display: flex;
+    justify-content: left;
+}
+
+.emergency>ul>li>div:first-child {
+    width: 80px;
+    height: 80px;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.emergency>ul>li>div:last-child{
+    width: 50%;
+    height: auto;
+    padding:3% 0 0 3%;
+    box-sizing: border-box;
+}
+.emergency>ul>li p{
+    font-size: 12px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+/* ------------------------------------ */
+footer{
+    width: 100%;
+    height: auto;
+    padding: 20px 0px;
+    box-sizing: border-box;
+}
+
+.footer-lists{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: auto;
+    height: auto;
+    padding: 25px 100px;
+    list-style: none;
+    user-select: none;
+}
+
+.footer-lists>li>p:first-child{font-size: 16px;padding-bottom: 5px;}
+.footer-lists>li>a{font-size: 14px;}
+
+footer>p:last-child {text-align: center;font-size: 12px;}
