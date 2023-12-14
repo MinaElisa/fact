@@ -33,7 +33,7 @@ main{
 .content{
     display: grid;
     grid-template-rows: auto auto;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 70% 30%;
     row-gap: 1%;
     width: 80%;
     height: auto;
@@ -45,17 +45,21 @@ article{
     padding: 25px;
     box-sizing: border-box;
 }
+article h2{padding: 10px 0;}
+article h3{padding: 5px 0;}
 article p{line-height: 200%;}
 
 .sidepanel{
     padding: 25px;
     box-sizing: border-box;
 }
+.sidepanel h2{padding: 10px 0;}
+.sidepanel h3{padding: 5px 0;}
+.sidepanel p{line-height: 200%;}
 .bottompanel{
     grid-column-start: 1;
     grid-column-end: 4;
     padding: 25px;
-    background-color: gray;
     box-sizing: border-box;
 }
 /* ------------------------------------ */

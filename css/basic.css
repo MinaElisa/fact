@@ -8,7 +8,7 @@ ul{list-style: none;}
 a:hover{text-decoration: underline;}
 
 #redalert{
-    background-color: rgb(104, 0, 0);
-    color: rgb(241, 241, 241);
+    background-color: rgb(180, 9, 9);
     border-radius: 5px;
+    color: white;
 }

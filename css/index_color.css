@@ -7,6 +7,7 @@ nav ul li a{color:white}
 main{background-color: rgb(247, 247, 247);}
 
 .Banner div:first-child{background-color: #00317a;color: white;}
+.Banner a{color: white;}
 .bannertitle p:last-of-type{color: lightslategray;}
 
 .featured div p:last-child{color: gray;}
@@ -21,5 +22,8 @@ footer>p{color: gray;}
 .footer-lists>li>p:first-child{color: white;}
 .footer-lists a{color: gray; }
 footer>hr{border: 1px solid gray;}
+
+/* Not that important */
+.Banner a:hover{color: #ecf4ff;}
 
 

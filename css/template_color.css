@@ -7,8 +7,15 @@ nav ul li a{color:white}
 
 main{background-color: black;}
 
-article{background-color: rgb(179, 179, 179);}
-.sidepanel{background-color: white;}
+.content h2{ color: white;}
+.content h3,h4{color:rgb(227, 233, 227);}
+article{background-color: rgb(75, 75, 75);border-right: 1px solid black;}
+article p{color: rgb(199, 192, 192);}
+
+.sidepanel{background-color: rgb(75, 75, 75);}
+.sidepanel p{color: rgb(199, 192, 192);}
+
+.bottompanel,.bottompanel p{background-color: rgb(179, 179, 179); color: black;}
 
 footer{background: rgb(0, 16, 51);}
 footer>p{color: gray;}
