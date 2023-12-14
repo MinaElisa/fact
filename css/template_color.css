@@ -1,0 +1,17 @@
+/* Basic color */
+nav{background-color: black;border-bottom: 2px solid gray;}
+.LOGO{color: whitesmoke;}
+.LOGO>a{color:whitesmoke;}
+.LOGO:hover{color: rgb(255, 255, 255);}
+nav ul li a{color:white}
+
+main{background-color: black;}
+
+article{background-color: rgb(179, 179, 179);}
+.sidepanel{background-color: white;}
+
+footer{background: rgb(0, 16, 51);}
+footer>p{color: gray;}
+.footer-lists>li>p:first-child{color: white;}
+.footer-lists a{color: gray; }
+footer>hr{border: 1px solid gray;}

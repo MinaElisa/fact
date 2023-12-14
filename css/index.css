@@ -75,7 +75,6 @@ main{
     flex-wrap: wrap;
     width: 100%;
     height: auto;
-    list-style: none;
 }
 .featured ul li{
     width: 25%;
@@ -114,8 +113,7 @@ main{
     float: left;
     width: 70%;
     height: auto;
-    padding-right: 10%;box-sizing: border-box;
-    list-style-type: none;
+    padding-right: 5%;box-sizing: border-box;
 }
 .quickcontent ul li{
     height: auto;
@@ -149,7 +147,6 @@ main{
     grid-template-rows: 50% 50%;
     width: 100%;
     height: auto;
-    list-style: none;
     box-sizing: border-box;
 }
 .emergency>ul>li{
@@ -189,7 +186,6 @@ footer{
     grid-template-rows: auto;
     height: auto;
     padding: 25px 100px;
-    list-style: none;
     user-select: none;
 }
 

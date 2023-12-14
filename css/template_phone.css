@@ -1,0 +1,48 @@
+/* template_phone.css */
+/* <NAV> */
+nav{flex-direction: column;}
+.LOGO{font-size: 30px; padding: 0; margin: 0 auto;}
+nav ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-right: 0;
+    border-bottom: 1px solid rgb(201, 201, 201);
+    background-color: white;
+}
+nav ul li{line-height: 40px;margin: 0 20px;}
+nav ul li a{font-size: 15px;color: gray;}
+
+/* .CONTENT */
+.content{
+    width: 94%;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 100%;
+    row-gap: 0;
+}
+.content>article{padding: 10px;}
+.content>.sidepanel{padding: 10px; margin-top: 5px;}
+.content>.bottompanel{
+    padding: 10px;
+    grid-column-start: initial;
+    grid-column-end:initial;
+    margin-top: 5px;
+}
+/* <FOOTER> */
+footer>p:last-child{
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+}
+.footer-lists{
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 100px 100px;
+    padding: 0 0 0 5%;
+}
+.footer-lists p{font-size: 12px;}
+
+footer>hr{width: 100%!important;}
+footer>p:last-child{font-size: 8px;}
+
+/* Not that important */
+.content>*{border-radius: 8px;}

@@ -4,5 +4,11 @@
     scroll-behavior: smooth;
     text-decoration: none;
 }
-
+ul{list-style: none;}
 a:hover{text-decoration: underline;}
+
+#redalert{
+    background-color: rgb(104, 0, 0);
+    color: rgb(241, 241, 241);
+    border-radius: 5px;
+}

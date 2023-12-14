@@ -1,0 +1,81 @@
+/* comModel.css */
+html,body{min-height: 100%;}
+/* ------------------------------------ */
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+.LOGO{
+    font-size: 40px;
+    line-height: 80px;
+    padding-left:330px;
+    font-weight: bolder;
+    user-select: none;
+}
+nav ul{
+    margin-right: 330px;
+    user-select: none;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 30px;
+}
+/* ------------------------------------ */
+main{
+    width: 100%;
+    height: auto;
+    min-width: 100%;
+    min-height: 100vh;
+}
+.content{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 60% 40%;
+    row-gap: 1%;
+    width: 80%;
+    height: auto;
+    min-height: 90vh;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+article{
+    padding: 25px;
+    box-sizing: border-box;
+}
+article p{line-height: 200%;}
+
+.sidepanel{
+    padding: 25px;
+    box-sizing: border-box;
+}
+.bottompanel{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    padding: 25px;
+    background-color: gray;
+    box-sizing: border-box;
+}
+/* ------------------------------------ */
+footer{
+    width: 100%;
+    height: auto;
+    padding: 20px 0px;
+    box-sizing: border-box;
+}
+
+.footer-lists{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: auto;
+    height: auto;
+    padding: 25px 100px;
+    user-select: none;
+}
+
+.footer-lists>li>p:first-child{font-size: 16px;padding-bottom: 5px;}
+.footer-lists>li>a{font-size: 14px;}
+
+footer>p:last-child {text-align: center;font-size: 12px;}
