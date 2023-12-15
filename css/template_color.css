@@ -5,16 +5,16 @@ nav{background-color: black;border-bottom: 2px solid gray;}
 .LOGO:hover{color: rgb(255, 255, 255);}
 nav ul li a{color:white}
 
-main{background-color: black;}
+main{background-color: rgb(75, 75, 75);}
 
 .content h2{ color: white;}
-.content h3,h4{color:rgb(227, 233, 227);}
-article{background-color: rgb(75, 75, 75);border-right: 1px solid black;}
-article p{color: rgb(199, 192, 192);}
+.content h3{color:whitesmoke}
+.content h4{color:  rgb(155, 146, 146);}
+.content p{color: gray;}
 
-.sidepanel{background-color: rgb(75, 75, 75);}
-.sidepanel p{color: rgb(199, 192, 192);}
 
+article{background-color: black;border-right: 1px solid whitesmoke;}
+.sidepanel{background-color: black;}
 .bottompanel,.bottompanel p{background-color: rgb(179, 179, 179); color: black;}
 
 footer{background: rgb(0, 16, 51);}

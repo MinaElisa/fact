@@ -41,21 +41,18 @@ main{
     margin: 0 auto;
     padding: 20px 0;
 }
+.content h2{padding: 10px 0;}
+.content h3{padding: 5px 0;}
+.content p{line-height: 150%; text-indent: 2em;}
+
 article{
     padding: 25px;
     box-sizing: border-box;
 }
-article h2{padding: 10px 0;}
-article h3{padding: 5px 0;}
-article p{line-height: 200%;}
-
 .sidepanel{
     padding: 25px;
     box-sizing: border-box;
 }
-.sidepanel h2{padding: 10px 0;}
-.sidepanel h3{padding: 5px 0;}
-.sidepanel p{line-height: 200%;}
 .bottompanel{
     grid-column-start: 1;
     grid-column-end: 4;
