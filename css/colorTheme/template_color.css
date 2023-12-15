@@ -9,12 +9,13 @@ main{background-color: rgb(75, 75, 75);}
 
 .content h2{ color: white;}
 .content h3{color:whitesmoke}
-.content h4{color:  rgb(155, 146, 146);}
+.content h4{color:  rgb(174, 175, 166);}
 .content p{color: gray;}
 
 
 article{background-color: black;border-right: 1px solid whitesmoke;}
 .sidepanel{background-color: black;}
+.sidepanel a{color: gray;}
 .bottompanel,.bottompanel p{background-color: rgb(179, 179, 179); color: black;}
 
 footer{background: rgb(0, 16, 51);}

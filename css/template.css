@@ -40,8 +40,8 @@ main{
     margin: 0 auto;
     padding: 20px 0;
 }
-.content h2{padding: 10px 0;}
-.content h3{padding: 5px 0;}
+.content h2{padding: 10px 0; text-decoration: underline;}
+.content h3{padding: 10px 0;}
 .content p{line-height: 150%; text-indent: 2em;}
 
 article{
@@ -52,6 +52,7 @@ article{
     padding: 25px;
     box-sizing: border-box;
 }
+.sidepanel a{font-style: italic;}
 .bottompanel{
     grid-column-start: 1;
     grid-column-end: 4;
