@@ -7,17 +7,28 @@ nav ul li a{color:white}
 
 main{background-color: rgb(75, 75, 75);}
 
+/* DarkMode */
+/*main{background-color: rgb(75, 75, 75);} 
 .content h2{ color: white;}
 .content h3{color:whitesmoke}
 .content h4{color:  rgb(174, 175, 166);}
 .content p{color: gray;}
-
-
 article{background-color: black;border-right: 1px solid gray;}
 .sidepanel{background-color: black;}
 .sidepanel a{color: gray;}
 .bottompanel{background-color:rgb(179, 179, 179);}
-.bottompanel p{ color: black;}
+.bottompanel p{ color: black;} */
+
+/* LightMode */
+main{background-color: rgb(247, 247, 247);;}
+.content h2{ color: black;}
+.content h3{color:black;}
+.content h4{color:  black; text-indent: 1em;}
+.content p{color: black;}
+article{border-right: 1px solid black;}
+article ul>li:last-child{border-bottom: 1px solid black;}
+.sidepanel a{color: black;}
+.bottompanel{background-color:rgb(179, 179, 179);}
 
 footer{background: rgb(0, 16, 51);}
 footer>p{color: gray;}

@@ -13,10 +13,12 @@ a:hover{text-decoration: underline;}
     text-decoration-color: red;
 }
 #redalert{
-    background-color: red;
-    color: wheat;
+    background-color: rgb(214, 4, 4);
+    color: rgb(235, 235, 235);
     border-radius: 4px;
 }
+
+
 ::-webkit-scrollbar{
     width: 10px;
     background-color: transparent;
