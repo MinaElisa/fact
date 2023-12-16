@@ -1,4 +1,4 @@
-/* Basic color */
+
 nav{background-color: black;}
 .LOGO{color: whitesmoke;}
 .LOGO:hover{color: rgb(255, 255, 255);}
@@ -6,11 +6,12 @@ nav ul li a{color:white}
 
 main{background-color: rgb(247, 247, 247);}
 
-.Banner div:first-child{background-color: #00317a;color: white;}
-.Banner a{color: white;}
+.banner div:first-child{background-color: #00317a;color: white;}
+.banner a{color: white;}
 .bannertitle p:last-of-type{color: lightslategray;}
 
-.featured div p:last-child{color: gray;}
+.featured div p{color: gray;}
+.featured div a{color: black;}
 .quickcontent{background-color:rgb(145, 162, 163);}
 .quickcontent a{color: black;}
 .quickcontent>div h3{color: white; background:rgba(0,0,0,.3); }

@@ -17,9 +17,9 @@ nav ul li a{font-size: 15px;color: gray;}
 .content{width: 94%;}
 
 /* .BANNER */
-.Banner{flex-direction: column-reverse;}
-.Banner div:first-child{width: 100%;height: 40%;padding: 10px;}
-.Banner div:last-child{width: 100%;height: 60%;}
+.banner{flex-direction: column-reverse;}
+.banner div:first-child{width: 100%;height: 40%;padding: 10px;}
+.banner div:last-child{width: 100%;height: 60%;}
 .bannertitle h2{font-size: 16px;}
 .bannertitle p:first-of-type{font-size: 10px; margin-top: 0;}
 .bannertitle p:last-of-type{font-size: 8px;position:static;}

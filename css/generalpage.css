@@ -1,0 +1,47 @@
+/* index.css */
+html,body{min-height: 100%;}
+/* titleSiz:16px/18px，normalFont:14px，timeLabels size:8px */
+/* ------------------------------------ */
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+.LOGO{
+    font-size: 40px;
+    line-height: 80px;
+    padding-left:330px;
+    font-weight: bolder;
+    user-select: none;
+}
+nav ul{
+    margin-right: 330px;
+    user-select: none;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 30px;
+}
+/* ------------------------------------ */
+footer{
+    width: 100%;
+    height: auto;
+    padding: 20px 0px;
+    box-sizing: border-box;
+}
+
+.footer-lists{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: auto;
+    height: auto;
+    padding: 25px 100px;
+    user-select: none;
+}
+
+.footer-lists>li>p:first-child{font-size: 16px;padding-bottom: 5px;}
+.footer-lists>li>a{font-size: 14px;}
+
+footer>p:last-child {text-align: center;font-size: 12px;}

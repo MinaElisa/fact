@@ -1,4 +1,4 @@
-/* Basic color */
+
 nav{background-color: black;}
 .LOGO{color: whitesmoke;}
 .LOGO>a{color:whitesmoke;}
@@ -13,10 +13,11 @@ main{background-color: rgb(75, 75, 75);}
 .content p{color: gray;}
 
 
-article{background-color: black;border-right: 1px solid whitesmoke;}
+article{background-color: black;border-right: 1px solid gray;}
 .sidepanel{background-color: black;}
 .sidepanel a{color: gray;}
-.bottompanel,.bottompanel p{background-color: rgb(179, 179, 179); color: black;}
+.bottompanel{background-color:rgb(179, 179, 179);}
+.bottompanel p{ color: black;}
 
 footer{background: rgb(0, 16, 51);}
 footer>p{color: gray;}

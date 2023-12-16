@@ -1,0 +1,35 @@
+main{
+    width: 100%;
+    height: auto;
+    min-width: 100%;
+    min-height: 100vh;
+}
+.content{
+    width: 66%;
+    min-height: 90vh;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.banner{
+    width: 100%;
+    height:auto;
+    min-height: 20vh;
+}
+.banner>ul{
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: repeat(4,25%);
+    width: 100%;
+    height: auto;
+}
+.banner>ul>li{
+    height:250px;
+    background-size: auto 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.banner li{font-size: 0;}
+.bannerTitle{
+    width: 100%;
+    height: auto;
+}

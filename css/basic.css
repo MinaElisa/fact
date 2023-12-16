@@ -7,8 +7,21 @@
 ul{list-style: none;}
 a:hover{text-decoration: underline;}
 
+/* Font style */
+#redunderline{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
 #redalert{
-    background-color: rgb(180, 9, 9);
-    border-radius: 5px;
-    color: white;
+    background-color: red;
+    color: wheat;
+    border-radius: 4px;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: transparent;
+    color: transparent;
+}
+::-webkit-scrollbar-thumb{
+    background-color: gray;
 }
