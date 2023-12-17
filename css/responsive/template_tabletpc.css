@@ -1,10 +1,4 @@
-/* @media (min-width:800px) and (max-width:1500px) */
-
 /* <NAV> */
 nav{justify-content: center;}
 .LOGO{padding-left: 0;}
 nav ul{margin-right: 0;}
-/* .BANNER */
-.Banner div:first-child{padding: 10px;}
-.bannertitle p:first-of-type{font-size: 10px; margin-top: 0;}
-.bannertitle p:last-of-type{font-size: 4px;}

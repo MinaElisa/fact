@@ -1,4 +1,4 @@
-/* index_phont.css */
+/* nav_space_phone.css */
 /* <NAV> */
 nav{flex-direction: column;}
 .LOGO{padding: 0; margin: 0 auto;}
@@ -16,6 +16,9 @@ nav ul li a{font-size: 15px;color: gray;}
 /* .CONTENT */
 .content{width: 94%;}
 
+/* .BANNER */
+.banner>ul>li{max-height: 30vh;}
+
 /* <FOOTER> */
 footer>p:last-child{
     width: 100%;
@@ -31,8 +34,3 @@ footer>p:last-child{
 
 footer>hr{width: 100%!important;}
 footer>p:last-child{font-size: 8px;}
-
-/* Not that important */
-.Banner{border-radius: 8px;overflow: hidden;}
-.quickcontent{border-radius: 8px;}
-.featured ul li a img{border-radius: 8px;border: none; overflow: hidden;}

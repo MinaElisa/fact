@@ -23,6 +23,7 @@ nav ul li{
     line-height: 80px;
     margin: 0 30px;
 }
+nav>ul>li>a{font-size: 18px;}
 /* ------------------------------------ */
 main{
     width: 100%;
@@ -114,6 +115,7 @@ main{
     padding-right: 5%;
     box-sizing: border-box;
 }
+.quickcontent>section>h2{padding-left: 10px; box-sizing: border-box;}
 .quickcontent article{
     width: 100%;
     height: auto;
@@ -121,6 +123,7 @@ main{
     box-sizing: border-box;
     position: relative;
 }
+.quickcontent article>p{ text-indent: 2em;}
 .cutoff-text{
     --max-lines:3;
     --line-height:1.4;
@@ -136,7 +139,7 @@ main{
     width: 100%;
     bottom: 0;
     pointer-events: none;
-    background:linear-gradient(to bottom, transparent,rgb(225, 228, 233));
+    background:linear-gradient(to bottom, transparent,rgb(192, 199, 209));
 }
 .btn-expand{
     appearance: none;

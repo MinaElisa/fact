@@ -1,4 +1,4 @@
-/* index_phont.css */
+/* index_phone.css */
 /* <NAV> */
 nav{flex-direction: column;}
 .LOGO{padding: 0; margin: 0 auto;}
@@ -11,29 +11,33 @@ nav ul {
     background-color: white;
 }
 nav ul li{line-height: 40px;margin: 0 20px;}
-nav ul li a{font-size: 15px;color: gray;}
+nav>ul>li>a{font-size: 15px;color: gray;}
 
 /* .CONTENT */
 .content{width: 94%;}
 
 /* .BANNER */
+.bannertitle h2{font-size: 16px;}
 .banner{flex-direction: column-reverse;}
 .banner div:first-child{width: 100%;height: 40%;padding: 10px;}
 .banner div:last-child{width: 100%;height: 60%;}
-.bannertitle h2{font-size: 16px;}
 .bannertitle p:first-of-type{font-size: 10px; margin-top: 0;}
 .bannertitle p:last-of-type{font-size: 8px;position:static;}
+.banner{border-radius: 8px;overflow: hidden;}
 
 /* .FEATURED*/
 .featured ul li{width: 50%;}
 .featured li>div{height: auto;}
 .featured div p:last-child{position:static; padding-bottom: 0;}
+.featured ul li a img{border-radius: 8px;border: none; overflow: hidden;}
 
 /* .QUICKCONTENT */
+.quickcontent>section>article>h3{font-size: 16px;}
+.quickcontent>section>article>p{font-size: 10px;}
 .quickcontent>section{float:none;width: 100%; padding: 0;}
 .quickcontent>section article:first-child{border-top-left-radius: 8px; border-top-right-radius: 8px;}
 .quickcontent>section article:last-child{border-bottom-left-radius: 8px; border-bottom-right-radius: 8px;}
-.quickcontent .btn-expand{width: 25%; border-radius: .25rem;}
+.quickcontent .btn-expand{padding: 1% 5% 1% 10%; border-radius: .25rem; font-size: 10px;}
 .quickcontent>div{display: none; float: none;}
 
 /* .EMERGENCY */
@@ -59,8 +63,3 @@ footer>p:last-child{
 
 footer>hr{width: 100%!important;}
 footer>p:last-child{font-size: 8px;}
-
-/* Not that important */
-.Banner{border-radius: 8px;overflow: hidden;}
-.quickcontent{border-radius: 8px;}
-.featured ul li a img{border-radius: 8px;border: none; overflow: hidden;}
