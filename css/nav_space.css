@@ -44,13 +44,18 @@ main{
 }
 .focustruth>div:first-child{
     width: 40%;
-    height: 400px;
+    height: auto;
     padding: 30px;
     box-sizing: border-box;
 }
+.focustruth>div:first-child>img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
 .focustruth>div:last-child{
     width:60%;
-    height: 400px;
+    height: auto;
     border-left: 1px solid gray;
 }
 .focustruth ul{
