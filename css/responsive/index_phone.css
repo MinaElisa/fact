@@ -21,8 +21,8 @@ nav>ul>li>a{font-size: 15px;color: gray;}
 .banner{flex-direction: column-reverse;}
 .banner div:first-child{width: 100%;height: 40%;padding: 10px;}
 .banner div:last-child{width: 100%;height: 60%;}
-.bannertitle p:first-of-type{font-size: 10px; margin-top: 0;}
-.bannertitle p:last-of-type{font-size: 8px;position:static;}
+.bannertitle p:first-of-type{font-size: 12px; margin-top: 0;}
+.bannertitle p:last-of-type{font-size: 10px;position:static;}
 .banner{border-radius: 8px;overflow: hidden;}
 
 /* .FEATURED*/
@@ -33,11 +33,11 @@ nav>ul>li>a{font-size: 15px;color: gray;}
 
 /* .QUICKCONTENT */
 .quickcontent>section>article>h3{font-size: 16px;}
-.quickcontent>section>article>p{font-size: 10px;}
+.quickcontent>section>article>p{font-size: 12px;}
 .quickcontent>section{float:none;width: 100%; padding: 0;}
 .quickcontent>section article:first-child{border-top-left-radius: 8px; border-top-right-radius: 8px;}
 .quickcontent>section article:last-child{border-bottom-left-radius: 8px; border-bottom-right-radius: 8px;}
-.quickcontent .btn-expand{padding: 1% 5% 1% 10%; border-radius: .25rem; font-size: 10px;}
+.quickcontent .btn-expand{padding: 1% 5%; border-radius: .25rem; font-size: 10px;}
 .quickcontent>div{display: none; float: none;}
 
 /* .EMERGENCY */
