@@ -7,7 +7,11 @@
 ul{list-style: none;}
 a:hover{text-decoration: underline;}
 
-/* Font style */
+/* Normal Font set */
+h1{padding: 10px 0; text-decoration: underline;}
+h2{padding: 10px 0;}
+h3{padding: 10px 0;font-weight:800;}
+/* Colorful Font set */
 #redunderline{
     text-decoration: underline;
     text-decoration-color: red;
@@ -17,13 +21,10 @@ a:hover{text-decoration: underline;}
     color: rgb(235, 235, 235);
     border-radius: 4px;
 }
-
-
+/* ScrollBar */
 ::-webkit-scrollbar{
     width: 10px;
     background-color: transparent;
     color: transparent;
 }
-::-webkit-scrollbar-thumb{
-    background-color: gray;
-}
+::-webkit-scrollbar-thumb{background-color: gray;}

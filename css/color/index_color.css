@@ -6,15 +6,18 @@ nav ul li a{color:white}
 
 main{background-color: rgb(247, 247, 247);}
 
+.banner a:hover{color: #ecf4ff;}
 .banner div:first-child{background-color: #00317a;color: white;}
 .banner a{color: white;}
 .bannertitle p:last-of-type{color: lightslategray;}
 
 .featured div p{color: gray;}
 .featured div a{color: black;}
-.quickcontent{background-color:rgb(145, 162, 163);}
-.quickcontent a{color: black;}
-.quickcontent>div h3{color: white; background:rgba(0,0,0,.3); }
+.quickcontent>ul>li{background-color: rgb(225, 228, 233);}
+.quickcontent>div>h3{color: white; background:rgba(0,0,0,.3); }
+#btnfold{border: 1px solid gray;background-color: gray;color: white;}
+#btnfold:hover{background-color: white;border: 1px solid white;color: black;}
+
 
 .emergency a{color: black;}
 
@@ -23,8 +26,3 @@ footer>p{color: gray;}
 .footer-lists>li>p:first-child{color: white;}
 .footer-lists a{color: gray; }
 footer>hr{border: 1px solid gray;}
-
-/* Not that important */
-.Banner a:hover{color: #ecf4ff;}
-
-
