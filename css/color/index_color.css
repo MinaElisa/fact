@@ -13,7 +13,7 @@ main{background-color: rgb(247, 247, 247);}
 
 .featured div p{color: gray;}
 .featured div a{color: black;}
-.quickcontent>ul>li{background-color: rgb(225, 228, 233);}
+.quickcontent article{background-color: rgb(225, 228, 233);}
 .quickcontent>div>h3{color: white; background:rgba(0,0,0,.3); }
 #btnfold{border: 1px solid gray;background-color: gray;color: white;}
 #btnfold:hover{background-color: white;border: 1px solid white;color: black;}

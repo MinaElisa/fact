@@ -30,9 +30,10 @@ nav ul li a{font-size: 15px;color: gray;}
 .featured div p:last-child{position:static; padding-bottom: 0;}
 
 /* .QUICKCONTENT */
-.quickcontent ul{float:none;width: 100%;}
+.quickcontent>section{float:none;width: 100%; padding: 0;}
+.quickcontent>section article:first-child{border-top-left-radius: 8px; border-top-right-radius: 8px;}
+.quickcontent>section article:last-child{border-bottom-left-radius: 8px; border-bottom-right-radius: 8px;}
 .quickcontent>div{display: none;}
-.quickcontent ul{padding-right: 0;}
 
 /* .EMERGENCY */
 .emergency>ul{

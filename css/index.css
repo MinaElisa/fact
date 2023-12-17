@@ -50,7 +50,7 @@ main{
     position:relative;/*仅用于标题文本定位*/
 }
 .bannertitle p:first-of-type{font-size: 18px; margin-top: 10px;}
-.bannertitle p:last-of-type{font-size: 10px; position:absolute; bottom: 5%;}
+.bannertitle p:last-of-type{font-size: 12px; position:absolute; bottom: 5%;}
 .banner div:last-child{
     width: 60%;
     height: auto;
@@ -92,7 +92,7 @@ main{
     padding: 0 5px;
     box-sizing: border-box;
 }
-.featured div p{font-size: 10px;}
+.featured div p{font-size: 12px;}
 .featured div a{font-size: 16px;}
 
 
@@ -101,34 +101,47 @@ main{
     height: auto;
     min-height: 20vh;
     padding: 20px 0;
-    overflow: hidden;/*仅用于解决'它无法被子元素撑大'的问题*/
     box-sizing: border-box;
+    overflow: hidden;/*Fix the subcontent doesnt effect its demision only.*/
 }
-.quickcontent h3{padding: 10px 0;}
-.quickcontent>ul{
+.quickcontent>section{
     float: left;
     width: 70%;
     height: auto;
     padding-right: 5%;
     box-sizing: border-box;
-    position: relative;
 }
-.quickcontent>ul>li{
-    display: block;
+.quickcontent article{
     width: 100%;
-    height: 100px;
-    overflow: hidden;
-    border-bottom: 1px solid gray;
+    height: auto;
+    padding: 10px 5px;
     box-sizing: border-box;
 }
-#btnfold{
-    width: 60px;
-    height: 20px;
-    user-select: none;
-    cursor: pointer;
-    -webkit-user-drag: none;
-    position: absolute;right: 63px;
+.cutoff-text{
+    --max-lines:3;
+    --line-height:1.4;
+    max-height: calc(var(--max-lines) * 1em * var(--line-height));
+    line-height: var(--line-height);
+    overflow: hidden;
+    position: relative;
 }
+.cutoff-text:has(+ .btn-expand:not(:checked))::before{
+    content: '';
+    position: absolute;
+    height: calc(1em * var(--line-height));
+    width: 100%;
+    bottom: 0;
+    pointer-events: none;
+    background:linear-gradient(to bottom, transparent,rgb(225, 228, 233));
+}
+.btn-expand{
+    appearance: none;
+    padding: .5em;
+    border: solid 1px black;
+}
+.btn-expand::before{content: 'Expand';}
+.btn-expand:checked::before{content: 'Collapse';}
+.cutoff-text:has(+ .btn-expand:checked){max-height: none;}
 
 .quickcontent>div{
     float: left;
@@ -151,7 +164,6 @@ main{
     padding: 20px 0;
     box-sizing: border-box;
 }
-.emergency h2{padding-bottom: 20px;}
 .emergency>ul{
     display: grid;
     grid-template-columns: repeat(4,25%);
@@ -164,7 +176,6 @@ main{
     display: flex;
     justify-content: left;
 }
-
 .emergency>ul>li>div:first-child {
     width: 80px;
     height: 80px;
@@ -178,6 +189,8 @@ main{
     padding:3% 0 0 3%;
     box-sizing: border-box;
 }
+.emergency h2{padding-bottom: 20px;}
+.emergency h3{padding: 0;}
 .emergency>ul>li p{
     font-size: 12px;
     overflow:hidden;

@@ -17,11 +17,8 @@ main{
     padding: 20px 0;
 }
 
-.content h1{padding: 10px 0; text-decoration: underline;}
-.content h2{padding: 10px 0;}
-.content h3{padding: 10px 0;font-weight:800;}
+.content h3{font-weight:800;}
 .content p{line-height: 150%; text-indent: 2em;}
-
 article{
     padding: 25px;
     box-sizing: border-box;
