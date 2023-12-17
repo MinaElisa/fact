@@ -33,7 +33,7 @@ nav ul li a{font-size: 15px;color: gray;}
 .quickcontent>section{float:none;width: 100%; padding: 0;}
 .quickcontent>section article:first-child{border-top-left-radius: 8px; border-top-right-radius: 8px;}
 .quickcontent>section article:last-child{border-bottom-left-radius: 8px; border-bottom-right-radius: 8px;}
-.quickcontent .btn-expand{border-radius: .25rem;}
+.quickcontent .btn-expand{width: 25%; border-radius: .25rem;}
 .quickcontent>div{display: none; float: none;}
 
 /* .EMERGENCY */
