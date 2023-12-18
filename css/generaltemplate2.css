@@ -29,20 +29,23 @@ article{
     justify-content: space-between;
     width: 80%;
     margin: 2% auto;
-    padding: 2% 2%;
+    padding: 2%;
+    box-sizing: border-box;
     background-color: rgb(221, 242, 245);
 }
-.imagecontent>img{
-    width: auto;
+.imagecontent>div:first-child{
+    width: 30%;
     height: auto;
 }
-.imagecontent>div{
+.imagecontent>img{
+    width: 100%;
+    height: auto;
+}
+.imagecontent>div:last-child{
     width: 70%;
     padding: 1em;
+    box-sizing: border-box;
     background-color:rgb(211, 233, 236);
-}
-.imagecontent>p{
-
 }
 .sidepanel{
     padding: 25px;
