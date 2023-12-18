@@ -1,7 +1,7 @@
 /* template_phone.css */
 /* <NAV> */
 nav{flex-direction: column;}
-.LOGO{font-size: 30px; padding: 0; margin: 0 auto;}
+.LOGO{padding: 0; margin: 0 auto;}
 nav ul {
     display: flex;
     justify-content: center;
@@ -35,14 +35,11 @@ article{padding: 10px;border-right: none;}
 footer>p:last-child{
     width: 100%;
     text-align: center;
-    font-size: 14px;
 }
 .footer-lists{
     grid-template-columns: 100%;
     grid-template-rows: 100px 100px 100px;
     padding: 0 0 0 5%;
 }
-.footer-lists p{font-size: 12px;}
-
+.footer-lists>li{padding: 5% 0;}
 footer>hr{width: 100%!important;}
-footer>p:last-child{font-size: 8px;}

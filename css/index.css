@@ -207,7 +207,10 @@ main{
     padding:3% 0 0 3%;
     box-sizing: border-box;
 }
-.emergency h3{padding: 0;}
+.emergency>ul>li p:first-child{
+    font-size: 1.1em;
+    font-weight: bold;
+}
 .emergency>ul>li p{
     overflow:hidden;
     text-overflow:ellipsis;
@@ -228,8 +231,5 @@ footer{
     padding: 25px 10%;
     user-select: none;
 }
-
 .footer-lists>li>p:first-child{padding-bottom: 5px;}
-.footer-lists>li>a{}
-
-footer>p:last-child {text-align: center;font-size:.5em;}
+footer .sign{text-align: center;font-size:0.8em;}
