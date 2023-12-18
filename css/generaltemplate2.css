@@ -23,6 +23,27 @@ article{
     padding: 25px;
     box-sizing: border-box;
 }
+.imagecontent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: 2% auto;
+    padding: 2% 2%;
+    background-color: rgb(221, 242, 245);
+}
+.imagecontent>img{
+    width: auto;
+    height: auto;
+}
+.imagecontent>div{
+    width: 70%;
+    padding: 1em;
+    background-color:rgb(211, 233, 236);
+}
+.imagecontent>p{
+
+}
 .sidepanel{
     padding: 25px;
     box-sizing: border-box;

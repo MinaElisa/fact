@@ -14,8 +14,8 @@ main{background-color: rgb(247, 247, 247);}
 .featured div p{color: gray;}
 .featured div a{color: black;}
 
-.quickcontent>section>h2{background-color: rgb(185, 185, 185); border-bottom: 2px solid gray;}
-.quickcontent article{background-color: rgb(192, 199, 209);}
+.quickcontent>section>h2{background-color: rgb(30, 46, 68); border-bottom: 2px solid gray; color: whitesmoke;}
+.quickcontent article{background-color: rgb(226, 231, 236);}
 .quickcontent .btn-expand{border: solid 1px gray; color: gray;}
 .quickcontent .btn-expand:hover{ background-color: rgb(215, 218, 223);}
 .quickcontent>div p{color: white;}
