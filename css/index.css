@@ -23,7 +23,6 @@ nav ul li{
     line-height: 80px;
     margin: 0 30px;
 }
-nav>ul>li>a{font-size: 18px;}
 /* ------------------------------------ */
 main{
     width: 100%;
@@ -48,10 +47,10 @@ main{
     height: auto;
     box-sizing: border-box;
     padding: 44px;
-    position:relative;/*仅用于标题文本定位*/
+    position:relative;
 }
-.bannertitle p:first-of-type{font-size: 18px; margin-top: 10px;}
-.bannertitle p:last-of-type{font-size: 12px; position:absolute; bottom: 5%;}
+.bannertitle p:first-of-type{margin-top: 10px;}
+.bannertitle p:last-of-type{position:absolute; bottom: 5%;}
 .banner div:last-child{
     width: 60%;
     height: auto;
@@ -83,7 +82,7 @@ main{
 .featured>ul>li>div:first-child{
     padding: 5px;
 }
-.featured>ul>li a{
+.featured>ul>li>div:first-child>a{
     display: block;
     height: auto;
     font-size: 0;/*fix the gap around image in label <a>*/
@@ -96,9 +95,6 @@ main{
     padding: 0 5px;
     box-sizing: border-box;
 }
-.featured>ul>li>div:last-child p{font-size: 12px;}
-.featured>ul>li>div:last-child a{font-size: 16px;}
-
 
 .quickcontent{
     width: 100%;
@@ -117,11 +113,13 @@ main{
 }
 .quickcontent>section>h2{padding-left: 10px; box-sizing: border-box;}
 .quickcontent article{
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: auto;
-    padding: 0px 10px 38px 10px;
+    padding: 0px 10px;
     box-sizing: border-box;
-    position: relative;
+
 }
 .quickcontent article>p{ text-indent: 2em;}
 .cutoff-text{
@@ -142,10 +140,11 @@ main{
     background:linear-gradient(to bottom, transparent,rgb(192, 199, 209));
 }
 .btn-expand{
+    width: 12%;
     appearance: none;
-    padding: 2px 10px 2px 30px;
-    position: absolute;
-    bottom: 2px;right: 10px;
+    text-align: right;
+    padding-right: 2%;
+    margin-left: 88%;
     cursor: pointer;
 }
 .btn-expand::before{content: '展开';}
@@ -210,7 +209,6 @@ main{
 }
 .emergency h3{padding: 0;}
 .emergency>ul>li p{
-    font-size: 12px;
     overflow:hidden;
     text-overflow:ellipsis;
 }
@@ -231,7 +229,7 @@ footer{
     user-select: none;
 }
 
-.footer-lists>li>p:first-child{font-size: 16px;padding-bottom: 5px;}
-.footer-lists>li>a{font-size: 14px;}
+.footer-lists>li>p:first-child{padding-bottom: 5px;}
+.footer-lists>li>a{}
 
-footer>p:last-child {text-align: center;font-size: 12px;}
+footer>p:last-child {text-align: center;font-size:.5em;}

@@ -11,6 +11,7 @@ a:hover{text-decoration: underline;}
 h1{padding: 10px 0; text-decoration: underline;}
 h2{padding: 10px 0;}
 h3{padding: 10px 0;}
+p{font-size: 1em;}
 /* Colorful Font set */
 #redunderline{
     text-decoration: underline;
@@ -20,6 +21,10 @@ h3{padding: 10px 0;}
     background-color: rgb(214, 4, 4);
     color: rgb(235, 235, 235);
     border-radius: 4px;
+}
+.timelabel{
+    font-size: 0.75em;
+    color: gray;
 }
 /* ScrollBar */
 ::-webkit-scrollbar{

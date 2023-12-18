@@ -19,7 +19,20 @@ nav ul li a{font-size: 15px;color: gray;}
 /* .BANNER */
 .banner>ul>li{max-height: 30vh;}
 
-/* <FOOTER> */
+/* .FOCUSTRUTH */
+.focustruth{
+    flex-direction: column;
+    justify-content: start;
+}
+.focustruth>div:first-child{
+    width: 100%;
+    height: 40%;
+}
+.focustruth>div:first-child>img{
+    width: 100%;
+    height: 40%;
+}
+/* FOOTER */
 footer>p:last-child{
     width: 100%;
     text-align: center;
