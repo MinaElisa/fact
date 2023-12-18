@@ -5,25 +5,16 @@
         <meta name="viewport" content = "width=device-width, initial-scale=1.0">
         <title>FACT | Arm</title>
         <link rel="stylesheet" href="../css/basic.css">
-        <link rel="stylesheet" href="../css/generalpage.css">
-        <link rel="stylesheet" href="../css/template.css">
+        <link rel="stylesheet" href="../css/generaltemplate1.css">
+        <link rel="stylesheet" href="../css/generaltemplate2.css">
         <link rel="stylesheet" href="../css/color/template_color.css">
-        <link rel="stylesheet" type="text/css" href="../css/responsive/template_tabletpc.css" media="(min-width:800px) and (max-width:1500px)"/>
-        <link rel="stylesheet" type="text/css" href="../css/responsive/template_phone.css"  media="(max-width:840px)"/>
+        <link rel="stylesheet" type="text/css" href="../css/responsive/generaltemplate2_tp.css" media="(min-width:800px) and (max-width:1500px)"/>
+        <link rel="stylesheet" type="text/css" href="../css/responsive/generaltemplate2_phone.css"  media="(max-width:840px)"/>
         <link rel="icon" href="../res/icon/labelicon.png">
     </head>
 
     <body>
-        <nav>
-            <label class="LOGO"><a href="../index.html">F.A.C.T.</a></label>
-            <ul>
-                <li><a href="#">资讯</a></li>
-                <li><a href="#">事实</a></li>
-                <li><a href="#">安全</a></li>
-                <li><a href="#">星球环境</a></li>
-            </ul>
-        </nav>
-
+        <template-nav></template-nav>
         <main>
             <div class="content">
                 <article>
@@ -51,30 +42,8 @@
                 </div>
             </div>
         </main>
-        <footer>
-            <ul class="footer-lists">
-                <li>
-                    <p>互动</p>
-                    <p><a href="#" target="_blank">数据信息反馈</a></p>
-                    <p><a href="#" target="_blank" target="_blank">资讯合作</a></p>
-                    <p><a href="#" target="_blank" target="_blank">取得联系</a></p>
-                </li>
-                <li>
-                    <p>友好网站</p>
-                    <p><a href="https://www.nature.com/" target="_blank">Nature</a></p>
-                    <p><a href="https://www.thelancet.com/" target="_blank">柳叶刀</a></p>
-                    <p><a href="https://www.mem.gov.cn/index.shtml" target="_blank">中国应急管理部</a></p>
-                </li>
-                <li>
-                    <p>声明</p>
-                    <p><a href="#" target="_blank">浏览者数据收集公布</a></p>
-                    <p><a href="#" target="_blank">网站内容核查原则</a></p>
-                    <p><a href="#" target="_blank">网站核心原则</a></p>
-                </li>
-            </ul>
-            <hr style="width: 80%;margin:0 auto;">
-            <p>&nbsp;&nbsp;F.A.C.T.&nbsp;Group&nbsp;-Focus.Accuracy.Case.Truth</p>
-        </footer>
+        <template-footer></template-footer>
     </body>
     <script src="../javascripts/subpages/template1.js"></script>
+    <script src="../javascripts/templateMgr.js"></script>
 </html>
