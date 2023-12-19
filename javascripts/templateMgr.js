@@ -40,6 +40,12 @@ class TemplateFooter extends HTMLElement{
                     <p><a href="#" target="_blank">浏览者数据收集公布</a></p>
                     <p><a href="#" target="_blank">网站内容核查原则</a></p>
                     <p><a href="#" target="_blank">网站核心原则</a></p>
+                    
+                </li>
+                <li></li>
+                <li class="bottomlogo">
+                    <p>F.A.C.T</p>
+                    <p>A Commonweal, Non-Marketing website for everyone.</p>
                 </li>
             </ul>
             <hr style="width: 80%;margin:0 auto;">

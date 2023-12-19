@@ -6,5 +6,10 @@ window.onload=function(){
     var temp1 = location.href.split("/");
     var temp2 = temp1.slice(temp1.length-1, temp1.length).toString(String).split(".");
     var logo = document.getElementsByClassName('LOGO')[0];
-    logo.appendChild(document.createTextNode(" | "+String(temp2.slice(0,1))));
+    var text= document.createElement('p');
+    text.style.display='inline';
+    text.style.fontSize='.8em';
+    text.innerText=' | '+String(temp2.slice(0,1));
+    logo.appendChild(text);
+    // logo.appendChild(document.createTextNode("|"+String(temp2.slice(0,1))));
 }

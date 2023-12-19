@@ -89,7 +89,6 @@ nav>ul>li>a{color: gray;}
     grid-template-rows: repeat(4,25%);
 }
 
-
 /* <FOOTER> */
 footer>p:last-child{
     width: 100%;
