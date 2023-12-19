@@ -26,4 +26,5 @@ footer{background: rgb(0, 16, 51);}
 footer>p{color: gray;}
 .footer-lists>li>p:first-child{color: white;}
 .footer-lists a{color: gray; }
+.bottomlogo>p{color: gray;}
 footer>hr{border: 1px solid gray;}

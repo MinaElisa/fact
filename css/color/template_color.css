@@ -19,7 +19,6 @@ article{background-color: black;border-right: 1px solid gray;}
 .bottompanel{background-color:rgb(179, 179, 179);}
 .bottompanel p{ color: black;} */
 
-/* LightMode */
 main{background-color: rgb(247, 247, 247);;}
 .content h2{ color: black;}
 .content h3{color:black;}
@@ -37,4 +36,5 @@ footer{background: rgb(0, 16, 51);}
 footer>p{color: gray;}
 .footer-lists>li>p:first-child{color: white;}
 .footer-lists a{color: gray; }
+.bottomlogo>p{color: gray;}
 footer>hr{border: 1px solid gray;}

@@ -1,4 +1,3 @@
-
 html,body{min-height: 100%;}
 /* ------------------------------------ */
 nav{
@@ -40,9 +39,5 @@ footer{
     user-select: none;
 }
 .footer-lists>li>p:first-child{padding-bottom: 5px;}
-.bottomlogo>p{
-    color: gray;
-}
 .bottomlogo>p:first-child{font-size: 40px; font-weight: bolder;}
-
 footer .sign{text-align: center;font-size:0.8em;}
