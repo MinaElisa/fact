@@ -30,7 +30,7 @@ article{
     margin: 2% auto;
     padding: 2%;
     box-sizing: border-box;
-    background-color: rgb(221, 242, 245);
+    background-color: rgb(134, 201, 148);
 }
 .imagecontent>div:first-child{
     width: 30%;
@@ -44,7 +44,7 @@ article{
     width: 70%;
     padding: 1em;
     box-sizing: border-box;
-    background-color:rgb(211, 233, 236);
+    background-color:rgb(115, 180, 129);
 }
 .sidepanel{
     padding: 25px;
