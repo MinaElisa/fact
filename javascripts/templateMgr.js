@@ -2,7 +2,7 @@ console.log("[templateMgr.js]templateMgr.js started.");
 class TemplateNav extends HTMLElement{
     connectedCallback() {
         this.innerHTML=`
-        <label class="LOGO"><a href="../index.html">F.A.C.T.</a></label>
+        <div class="LOGO"><p><a href="../index.html">F.A.C.T.</a></p></div>
         <ul>
             <li><a href="#">资讯</a></li>
             <li><a href="#">事实</a></li>
@@ -44,6 +44,7 @@ class TemplateFooter extends HTMLElement{
                 <li class="bottomlogo">
                     <p>F.A.C.T</p>
                     <p>A Commonweal, Non-Marketing website for everyone.</p>
+                    <p>一个公益、非营销性质的网站.</p>
                 </li>
             </ul>
             <hr style="width: 80%;margin:0 auto;">

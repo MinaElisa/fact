@@ -1,67 +1,69 @@
-console.log("[template1.js]index.js started.")
+console.log("[pagetemplate.js]started.")
 
 window.onload=function(){
     // 根据当前html名称去追加navlogo的文本
     var temp1 = location.href.split("/");
     var temp2 = temp1.slice(temp1.length-1, temp1.length).toString(String).split(".");
     var logo = document.getElementsByClassName('LOGO')[0];
-    var text= document.createElement('span');
-    text.style.display='inline';
-    text.style.fontSize='1.7rem';
-    text.style.lineHeight='1.7rem';
+    var text= document.createElement('p');
+    text.style.display='inline-block';
+    text.style.fontSize='40px';
+    text.style.lineHeight='80px';
+    text.style.color="gray";
     text.innerText=' '+String(temp2.slice(0,1));
-    logo.appendChild(text);
+    logo.append(text);
 }
-
 
 let header = document.getElementsByTagName('template-nav')[0];
 window.onscroll =()=>{
     let top =document.documentElement.scrollTop || document.body.scrollTop;
-    let label=header.getElementsByTagName('label')[0];
-    let a =label.getElementsByTagName('a')[0];
-    let span=label.getElementsByTagName('span')[0];
-    let li=header.getElementsByTagName('li');
+    let logo=header.getElementsByClassName('LOGO')[0];
+    let p1=logo.getElementsByTagName('p')[0];
+    let p2=logo.getElementsByTagName('p')[1];
+    let lis=header.getElementsByTagName('li');
 
     const mediaQueryPC = window.matchMedia('(min-width: 1230px)')
     const mediaQueryPhone = window.matchMedia('(max-width: 800px)')
     const mediaQueryTP = window.matchMedia('(min-width:800px) and (max-width: 1230px)')
 
     if(mediaQueryPC.matches){
-        if(top !=0){
-            header.style = "height:40px;position:fixed;top:0; z-index:9;";
-            label.style = 'height:40px; line-height:40px;';
-            span.style='font-size:1.7rem; line-height:100%;';
-            for(var i=0;i<li.length;i++){li[i].style='line-height:40px;';}
+        if(top >22){
+            header.style = "position:fixed;top:0; z-index:9;";
+            p1.style='font-size:40px; line-height:40px;'
+            p2.style='font-size:30px; line-height:40px; color:gray; vertical-align: top;'
+            for(var i=0;i<lis.length;i++){lis[i].style='line-height:40px;';}
         }
-        else{
-            header.style = "height:auto;position:static;";
-            label.style='font-size:40px;line-height:80px;';
-            span.style=' font-size:1.7rem;line-height:1.7rem;';
-            for(var i=0;i<li.length;i++){li[i].style='line-height:80px;';}
+        if(top <1){
+            header.style = "position:static;";
+            p1.style='font-size:40px; line-height:80px;'
+            p2.style='font-size:40px; line-height:80px; color:gray;'
+            for(var i=0;i<lis.length;i++){lis[i].style='line-height:80px;';}
         }
     }
     if(mediaQueryPhone.matches){
-        if(top !=0){
+        if(top >22){
             header.style = "position:fixed;top:0; z-index:9;";
-            label.style='line-height:40px;';
-            span.style='font-size:1.7rem;line-height:40px;';
+            p1.style='font-size:40px; line-height:40px;'
+            p2.style='font-size:30px; line-height:40px; color:gray; vertical-align: top;'
         }
-        else{
+        if(top <1){
             header.style = "position:static;";
-            label.style='line-height:80px;';
-            span.style='font-size:1.7rem;line-height:1.7rem;';
+            p1.style='font-size:40px; line-height:80px;'
+            p2.style='font-size:40px; line-height:80px; color:gray;'
         }
     }
-    // if(mediaQueryTP.matches){
-    //     if(top !=0){
-    //         header.style = "position:fixed;top:0; z-index:9;";
-    //         label.style='font-size:40px;line-height:40px;';
-    //         p.style='display:inline; font-size:1rem;line-height:40px;';
-    //     }
-    //     else{
-    //         header.style = "position:static;";
-    //         label.style='font-size:40px;line-height:80px;';
-    //         p.style='display:inline; font-size:1.8rem;line-height:1.8rem;';
-    //     }
-    // }
+    if(mediaQueryTP.matches){
+        if(top >22){
+            header.style = "position:fixed;top:0; z-index:9;";
+            p1.style='font-size:40px; line-height:40px;'
+            p2.style='font-size:30px; line-height:40px; color:gray; vertical-align: top;'
+            for(var i=0;i<lis.length;i++){lis[i].style='line-height:40px;';}
+        }
+        if(top <1){
+            header.style = "position:static;";
+            p1.style='font-size:40px; line-height:80px;'
+            p2.style='font-size:40px; line-height:80px; color:gray;'
+            for(var i=0;i<lis.length;i++){lis[i].style='line-height:80px;';}
+        }
+    }
 }

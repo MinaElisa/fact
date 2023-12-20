@@ -8,11 +8,16 @@ nav{
     height: auto;
 }
 .LOGO{
-    font-size: 40px;
-    line-height: 80px;
+    width: auto;
+    height: auto;
     padding-left:330px;
     font-weight: bolder;
     user-select: none;
+}
+.LOGO>p{
+    display: inline-block;
+    font-size: 40px;
+    line-height: 80px;
 }
 nav ul{
     margin-right: 330px;

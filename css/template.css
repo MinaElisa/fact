@@ -7,11 +7,16 @@ template-nav{
     height: auto;
 }
 .LOGO{
-    font-size: 40px;
-    line-height: 80px;
+    width: auto;
+    height: auto;
     padding-left:330px;
     font-weight: bolder;
     user-select: none;
+}
+.LOGO>p{
+    display: inline-block;
+    font-size: 40px;
+    line-height: 80px;
 }
 template-nav ul{
     margin-right: 330px;
@@ -28,16 +33,15 @@ footer{
     height: auto;
     padding: 20px 0px;
     box-sizing: border-box;
+    user-select: none;
 }
-
 .footer-lists{
     display: grid;
     grid-template-columns: repeat(5,20%);
     grid-template-rows: 100%;
     height: auto;
     padding: 25px 10%;
-    user-select: none;
 }
 .footer-lists>li>p:first-child{padding-bottom: 5px;}
-.bottomlogo>p:first-child{font-size: 40px; font-weight: bolder;}
+.bottomlogo>p:first-child{font-size: 40px; font-weight: bolder; font-family:Georgia, 'Times New Roman', Times, serif;}
 footer .sign{text-align: center;font-size:0.8em;}

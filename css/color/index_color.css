@@ -1,6 +1,6 @@
 
 nav{background-color: black;}
-.LOGO{color: whitesmoke;}
+.LOGO>p{color:whitesmoke;}
 .LOGO:hover{color: rgb(255, 255, 255);}
 nav ul li a{color:white}
 
@@ -21,7 +21,7 @@ main{background-color: rgb(247, 247, 247);}
 .quickcontent>section:last-child p{color: white;}
 
 .emergency a{color: black;}
-
+/* FOOTER */
 footer{background: rgb(0, 16, 51);}
 footer>p{color: gray;}
 .footer-lists>li>p:first-child{color: white;}

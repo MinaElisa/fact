@@ -1,17 +1,16 @@
 
 template-nav{background-color: black;}
-.LOGO{color: whitesmoke;}
-.LOGO>a{color:whitesmoke;}
+.LOGO>p>a{color:whitesmoke;}
 .LOGO:hover{color: rgb(255, 255, 255);}
 template-nav ul li a{color:white}
 
 main{background-color: rgb(247, 247, 247);}
 
 .banner>ul>li{box-shadow: 10px 0px 20px -10px black inset;}
-
+/* FOOTER */
 footer{background: rgb(0, 16, 51);}
 footer>p{color: gray;}
 .footer-lists>li>p:first-child{color: white;}
 .footer-lists a{color: gray; }
+.bottomlogo>p{color: gray;}
 footer>hr{border: 1px solid gray;}
-

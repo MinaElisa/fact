@@ -1,4 +1,4 @@
-console.log("[index.js]index.js started.")
+console.log("[index.js]started.")
 
 window.onload=function(){
 
@@ -42,36 +42,47 @@ window.onload=function(){
 let header = document.getElementsByTagName('nav')[0];
 window.onscroll =()=>{
     let top =document.documentElement.scrollTop || document.body.scrollTop;
-    let label=header.getElementsByTagName('label')[0];
-    let li=header.getElementsByTagName('li');
+    let logo=header.getElementsByClassName('LOGO')[0];
+    let p1=logo.getElementsByTagName('p')[0];
+    let lis=header.getElementsByTagName('li');
 
-    let mediaQueryPC = window.matchMedia('(min-width: 1200px)')
-    let mediaQueryPhone = window.matchMedia('(max-width: 800px)')
+    const mediaQueryPC = window.matchMedia('(min-width: 1230px)')
+    const mediaQueryPhone = window.matchMedia('(max-width: 800px)')
+    const mediaQueryTP = window.matchMedia('(min-width:800px) and (max-width: 1230px)')
 
     if(mediaQueryPC.matches){
-        if(top !=0){
-            header.style = "height:40px;position:fixed;top:0; z-index:9";
-            label.style='font-size:40px;line-height:40px;';
-            for(var i=0;i<li.length;i++){
-                li[i].style='line-height:40px;';
-            }
+        if(top >25){
+            p1.style = 'animation: scale1 3s;';
+            header.style = "position:fixed;top:0; z-index:9;";
+            p1.style='font-size:40px; line-height:40px;'
+            for(var i=0;i<lis.length;i++){lis[i].style='line-height:40px;';}
         }
-        else{
-            header.style = "height:80px;position:static;";
-            label.style='font-size:40px;line-height:80px;';
-            for(var i=0;i<li.length;i++){
-                li[i].style='line-height:80px;';
-            }
+        if(top <1){
+            header.style = "position:static;";
+            p1.style='font-size:40px; line-height:80px;'
+            for(var i=0;i<lis.length;i++){lis[i].style='line-height:80px;';}
         }
     }
     if(mediaQueryPhone.matches){
-        if(top !=0){
+        if(top >25){
             header.style = "position:fixed;top:0; z-index:9;";
-            label.style='font-size:40px;line-height:40px;';
+            p1.style='font-size:40px; line-height:40px;'
         }
-        else{
+        if(top <1){
             header.style = "position:static;";
-            label.style='font-size:40px;line-height:80px;';
+            p1.style='font-size:40px; line-height:80px;'
+        }
+    }
+    if(mediaQueryTP.matches){
+        if(top >25){
+            header.style = "height:40px; position:fixed;top:0; z-index:9;";
+            p1.style='font-size:40px; line-height:40px;'
+            for(var i=0;i<lis.length;i++){lis[i].style='line-height:40px;';}
+        }
+        if(top <1){
+            header.style = "height:80px position:static;";
+            p1.style='font-size:40px; line-height:80px;'
+            for(var i=0;i<lis.length;i++){lis[i].style='line-height:80px;';}
         }
     }
 }
