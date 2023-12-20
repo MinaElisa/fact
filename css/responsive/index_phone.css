@@ -88,7 +88,7 @@ nav>ul>li>a{color: gray;}
     grid-template-columns: repeat(2,50%);
     grid-template-rows: repeat(4,25%);
 }
-
+.emergency>ul>li>div:first-child{border-radius: 33px;}
 /* <FOOTER> */
 footer>p:last-child{
     width: 100%;

@@ -14,7 +14,7 @@ window.onload=function(){
     var div = document.getElementsByClassName('quickcontent')[0];
     var br=div.getElementsByTagName('br');
     for(var x=0;x<br.length;x++){
-        br[x].insertAdjacentHTML('afterend','&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;');
+        br[x].insertAdjacentHTML('afterend','&emsp;&emsp;');
     }
     
     // 已废弃的'文本折叠展开'功能代码
@@ -45,8 +45,8 @@ window.onscroll =()=>{
     let label=header.getElementsByTagName('label')[0];
     let li=header.getElementsByTagName('li');
 
-    const mediaQueryPC = window.matchMedia('(min-width: 1200px)')
-    const mediaQueryPhone = window.matchMedia('(max-width: 800px)')
+    let mediaQueryPC = window.matchMedia('(min-width: 1200px)')
+    let mediaQueryPhone = window.matchMedia('(max-width: 800px)')
 
     if(mediaQueryPC.matches){
         if(top !=0){
@@ -66,7 +66,7 @@ window.onscroll =()=>{
     }
     if(mediaQueryPhone.matches){
         if(top !=0){
-            header.style = "position:fixed;top:0;";
+            header.style = "position:fixed;top:0; z-index:9;";
             label.style='font-size:40px;line-height:40px;';
         }
         else{
