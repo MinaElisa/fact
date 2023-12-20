@@ -2,15 +2,13 @@ console.log("[templateMgr.js]templateMgr.js started.");
 class TemplateNav extends HTMLElement{
     connectedCallback() {
         this.innerHTML=`
-        <nav>
-            <label class="LOGO"><a href="../index.html">F.A.C.T.</a></label>
-            <ul>
-                <li><a href="#">资讯</a></li>
-                <li><a href="#">事实</a></li>
-                <li><a href="#">安全</a></li>
-                <li><a href="#">星球环境</a></li>
-            </ul>
-        </nav>
+        <label class="LOGO"><a href="../index.html">F.A.C.T.</a></label>
+        <ul>
+            <li><a href="#">资讯</a></li>
+            <li><a href="#">事实</a></li>
+            <li><a href="#">安全</a></li>
+            <li><a href="#">星球环境</a></li>
+        </ul>
         `
     }
 }

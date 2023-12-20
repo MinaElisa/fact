@@ -45,8 +45,8 @@ main{
 .banner div:first-child{
     width: 40%;
     height: auto;
-    box-sizing: border-box;
     padding: 40px;
+    box-sizing: border-box;
     position:relative;
 }
 .bannertitle p:last-of-type{position:absolute; bottom: 5%;}

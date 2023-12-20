@@ -1,8 +1,8 @@
 /* nav_space_phone.css */
 /* <NAV> */
-nav{flex-direction: column;}
+template-nav{flex-direction: column;}
 .LOGO{padding: 0; margin: 0 auto;}
-nav ul {
+template-nav ul {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -10,8 +10,8 @@ nav ul {
     border-bottom: 1px solid rgb(201, 201, 201);
     background-color: white;
 }
-nav ul li{line-height: 40px;margin: 0 20px;}
-nav ul li a{color: gray;}
+template-nav ul li{line-height: 40px;margin: 0 20px;}
+template-nav ul li a{color: gray;}
 
 /* .CONTENT */
 .content{width: 94%;}

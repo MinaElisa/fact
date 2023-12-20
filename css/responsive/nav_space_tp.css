@@ -1,7 +1,7 @@
 /* <NAV> */
-nav{justify-content: center;}
+template-nav{justify-content: center;}
 .LOGO{padding-left: 0;}
-nav ul{margin-right: 0;}
+template-nav ul{margin-right: 0;}
 /* BANNER */
 .banner div:first-child{padding: 10px;}
 .bannertitle p:first-of-type{font-size: 10px; margin-top: 0;}

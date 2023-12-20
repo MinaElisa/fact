@@ -39,3 +39,40 @@ window.onload=function(){
     //     });
     // }
 }
+let header = document.getElementsByTagName('nav')[0];
+window.onscroll =()=>{
+    let top =document.documentElement.scrollTop || document.body.scrollTop;
+    let label=header.getElementsByTagName('label')[0];
+    let li=header.getElementsByTagName('li');
+
+    const mediaQueryPC = window.matchMedia('(min-width: 1200px)')
+    const mediaQueryPhone = window.matchMedia('(max-width: 800px)')
+
+    if(mediaQueryPC.matches){
+        if(top !=0){
+            header.style = "height:40px;position:fixed;top:0; z-index:9";
+            label.style='font-size:40px;line-height:40px;';
+            for(var i=0;i<li.length;i++){
+                li[i].style='line-height:40px;';
+            }
+        }
+        else{
+            header.style = "height:80px;position:static;";
+            label.style='font-size:40px;line-height:80px;';
+            for(var i=0;i<li.length;i++){
+                li[i].style='line-height:80px;';
+            }
+        }
+    }
+    if(mediaQueryPhone.matches){
+        if(top !=0){
+            header.style = "position:fixed;top:0;";
+            label.style='font-size:40px;line-height:40px;';
+        }
+        else{
+            header.style = "position:static;";
+            label.style='font-size:40px;line-height:80px;';
+        }
+    }
+}
+

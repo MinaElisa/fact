@@ -1,6 +1,6 @@
 html,body{min-height: 100%;}
 /* ------------------------------------ */
-nav{
+template-nav{
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -13,11 +13,11 @@ nav{
     font-weight: bolder;
     user-select: none;
 }
-nav ul{
+template-nav ul{
     margin-right: 330px;
     user-select: none;
 }
-nav ul li{
+template-nav ul li{
     display: inline-block;
     line-height: 80px;
     margin: 0 30px;

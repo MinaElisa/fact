@@ -1,16 +1,16 @@
 /* <NAV> */
-nav{flex-direction: column;}
+template-nav{flex-direction: column;}
 .LOGO{padding: 0; margin: 0 auto;}
-nav ul {
+template-nav ul {
     display: flex;
     justify-content: center;
     width: 100%;
     margin-right: 0;
-    border-top: 1px solid gray;
-    background-color: black;
+    border-bottom: 1px solid gray;
+    background-color: white;
 }
-nav ul li{line-height: 40px;margin: 0 20px;}
-nav ul li a{font-size: 15px;color: gray;}
+template-nav ul li{line-height: 40px;margin: 0 20px;}
+template-nav ul li a{font-size: 15px;color: gray;}
 
 /* .CONTENT */
 .content{
