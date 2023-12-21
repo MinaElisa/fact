@@ -2,7 +2,7 @@ console.log("[templateMgr.js]templateMgr.js started.");
 class TemplateNav extends HTMLElement{
     connectedCallback() {
         this.innerHTML=`
-        <div class="LOGO"><p><a href="../index.html">F.A.C.T.</a></p></div>
+        <div class="LOGO"><p><a href="https://minaelisa.github.io/fact">F.A.C.T.</a></p></div>
         <ul>
             <li><a href="#">资讯</a></li>
             <li><a href="#">事实</a></li>

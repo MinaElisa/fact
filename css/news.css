@@ -1,0 +1,57 @@
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    min-width: 100%;
+}
+/* CENTER CONTENT */
+.content{
+    width: 66%;
+    height: auto;
+}
+.content>h1{
+    width: 100%;
+    text-align: center;
+}
+.content>ul{
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: repeat(3,30%);
+    column-gap: 5%;
+    width: 100%;
+    height: 40%;
+    padding: 0 10%;
+    box-sizing: border-box;
+}
+.content>ul>li{
+    height: 100%;
+}
+.content>ul div{
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    position:relative;
+}
+.content>ul p{
+    width: 100%;
+    position:absolute;
+    bottom: 0;
+}
+/* LEFTCONTENT */
+.leftcontent{
+    width: 17%;
+    height: auto;
+    padding-top: 5%;
+}
+.leftcontent>ul{
+    border: solid 1px black;
+}
+/* RIGHTCONTENT */
+.rightcontent{
+    width: 17%;
+    height: auto;
+    padding-top: 5%;
+}
