@@ -203,18 +203,19 @@ main{
     box-sizing: border-box;
 }
 .emergency>ul>li>div:first-child {
-    width: 70px;
-    height: 70px;
+    width: 90px;
+    height: 90px;
+    float:left;
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    background-clip: content-box;
-    float:left;
+    box-sizing: border-box;
 }
 .emergency>ul>li>div:last-child{
     width: auto;
-    height: 80px;
+    height: 90px;
     float: left;
+    box-sizing: border-box;
 }
 .emergency>ul>li p:first-child{
     text-indent: 1rem;

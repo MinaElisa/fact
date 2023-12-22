@@ -86,17 +86,19 @@ nav>ul>li>a{color: gray;}
     overflow-y: auto;
 }
 .emergency>ul::-webkit-scrollbar{display: none;}
-/* Hide scroll bar code below */
-/* .emergency::after{
-    content: '';
-    width: 100%;
-    height: 25px;
-    position:absolute;
-    bottom: 15px;left: -1px;
-    background-color: rgb(247, 247, 247);;
-} */
-.emergency>ul>li>div:first-child {margin-right: 10px;border-radius: 8px;float: none;}
-.emergency>ul>li>div:last-child{height: auto;float: none;}
+.emergency>ul>li{margin: 0 25px 0 0; padding: 0;}
+.emergency>ul>li>div:first-child {
+    float: none;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.emergency>ul>li>div:last-child {
+    height: auto;
+    float: none;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: rgb(185, 185, 185);
+}
 .emergency>ul>li p:first-child{
     text-indent: 0rem;
     font-weight: bold;
