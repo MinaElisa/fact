@@ -7,15 +7,13 @@ template-nav ul {
     justify-content: center;
     width: 100%;
     margin-right: 0;
-    border-bottom: 1px solid rgb(201, 201, 201);
+    border-bottom: 1px solid gray;
     background-color: white;
 }
 template-nav ul li{line-height: 40px;margin: 0 20px;}
 template-nav ul li a{color: gray;}
-
 /* .CONTENT */
 .content{width: 94%;}
-
 /* .BANNER */
 .banner>ul>li{max-height: 30vh;}
 

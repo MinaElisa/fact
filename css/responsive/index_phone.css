@@ -1,4 +1,3 @@
-/* index_phone.css */
 /* <NAV> */
 nav{flex-direction: column;}
 .LOGO{padding: 0; margin: 0 auto;}
@@ -6,7 +5,7 @@ nav ul {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-right: 0;
+    padding: 0;
     border-bottom: 1px solid gray;
     background-color: white;
 }
@@ -17,10 +16,7 @@ nav>ul>li>a{color: gray;}
 .content{width: 94%;}
 
 /* .BANNER */
-.banner {
-    flex-direction: column-reverse;
-}
-
+.banner {flex-direction: column-reverse;}
 .banner div:first-child {
     width: 100%;
     height: 40%;
@@ -82,13 +78,33 @@ nav>ul>li>a{color: gray;}
 .quickcontent>section:last-child>div{width: 48%; border-radius: 8px; overflow: hidden;}
 .quickcontent>section:last-child p{font-size: 0.75em;}
 .quickcontent>section:last-child>div::before{height: 50%;}
-
 /* .EMERGENCY */
+.emergency{position: relative;}
 .emergency>ul{
-    grid-template-columns: repeat(2,50%);
-    grid-template-rows: repeat(4,25%);
+    display: flex;
+    flex-direction: row;
+    overflow-y: auto;
 }
-.emergency>ul>li>div:first-child{border-radius: 33px;}
+.emergency>ul::-webkit-scrollbar{display: none;}
+/* Hide scroll bar code below */
+/* .emergency::after{
+    content: '';
+    width: 100%;
+    height: 25px;
+    position:absolute;
+    bottom: 15px;left: -1px;
+    background-color: rgb(247, 247, 247);;
+} */
+.emergency>ul>li>div:first-child {margin-right: 10px;border-radius: 8px;float: none;}
+.emergency>ul>li>div:last-child{height: auto;float: none;}
+.emergency>ul>li p:first-child{
+    text-indent: 0rem;
+    font-weight: bold;
+}
+.emergency>ul>li p:last-child{
+    text-indent: 0rem;
+    font-size: 0.8rem;
+}
 /* <FOOTER> */
 footer>p:last-child{
     width: 100%;

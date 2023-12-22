@@ -52,39 +52,41 @@ window.onscroll =()=>{
     const mediaQueryTP = window.matchMedia('(min-width:800px) and (max-width: 1230px)')
 
     if(mediaQueryPC.matches){
-        if(top >25){
+        if(top >20){
             header.style = "height:40px;position:fixed;top:0; z-index:9;";
-            p1.style='font-size:40px; line-height:40px;'
+            p1.style='font-size:40px; line-height:40px;';
             for(var i=0;i<lis.length;i++){lis[i].style='line-height:40px;';}
-            main.style='margin-top:55px;';
+            main.style='margin-top:60px;';
         }
         if(top <1){
             header.style = "height:auto;position:static;";
-            p1.style='font-size:40px; line-height:80px;'
+            p1.style='font-size:40px; line-height:80px;';
             for(var i=0;i<lis.length;i++){lis[i].style='line-height:80px;';}
             main.style='margin-top:0;';
         }
     }
     if(mediaQueryPhone.matches){
-        if(top >25){
+        if(top >20){
             header.style = "position:fixed;top:0; z-index:9;";
-            p1.style='font-size:40px; line-height:40px;'
+            p1.style='font-size:40px; line-height:40px;';
+            main.style='margin-top:100px;';
         }
         if(top <1){
             header.style = "position:static;";
-            p1.style='font-size:40px; line-height:80px;'
+            p1.style='font-size:40px; line-height:80px;';
+            main.style='margin-top:0px;';
         }
     }
     if(mediaQueryTP.matches){
-        if(top >25){
+        if(top >20){
             header.style = "height:40px; position:fixed;top:0; z-index:9;";
-            p1.style='font-size:40px; line-height:40px;'
+            p1.style='font-size:40px; line-height:40px;';
             for(var i=0;i<lis.length;i++){lis[i].style='line-height:40px;';}
-            main.style='margin-top:55px;';
+            main.style='margin-top:60px;';
         }
         if(top <1){
             header.style = "height:80px position:static;";
-            p1.style='font-size:40px; line-height:80px;'
+            p1.style='font-size:40px; line-height:80px;';
             for(var i=0;i<lis.length;i++){lis[i].style='line-height:80px;';}
             main.style='margin-top:0;';
         }

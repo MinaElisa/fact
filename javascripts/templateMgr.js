@@ -4,10 +4,10 @@ class TemplateNav extends HTMLElement{
         this.innerHTML=`
         <div class="LOGO"><p><a href="https://minaelisa.github.io/fact">F.A.C.T.</a></p></div>
         <ul>
-            <li><a href="#">资讯</a></li>
-            <li><a href="#">事实</a></li>
-            <li><a href="#">安全</a></li>
-            <li><a href="#">星球环境</a></li>
+            <li><a href="https://minaelisa.github.io/fact/pages/nav/news.html">资讯</a></li>
+            <li><a href="https://minaelisa.github.io/fact/pages/nav/news.html">事实</a></li>
+            <li><a href="https://minaelisa.github.io/fact/pages/nav/news.html">安全</a></li>
+            <li><a href="https://minaelisa.github.io/fact/pages/nav/space.html">星球环境</a></li>
         </ul>
         `
     }

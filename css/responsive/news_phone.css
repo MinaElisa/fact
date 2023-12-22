@@ -1,0 +1,58 @@
+/* <NAV> */
+template-nav{flex-direction: column;}
+.LOGO{padding: 0; margin: 0 auto;}
+template-nav ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-right: 0;
+    border-bottom: 1px solid gray;
+    background-color: white;
+}
+template-nav ul{background-color: gray;}
+template-nav ul li{line-height: 40px;margin: 0 20px;}
+template-nav ul li a{color: white;}
+/* MAIN */
+main{
+    flex-direction: column;
+    justify-content:start;
+    width: 94%;
+    height: auto;
+    margin: 0 auto;
+}
+.leftcontent, .rightcontent{
+    width: 100%;
+    height: 10%;
+}
+article{
+    width: 100%;
+    height: 80%;
+}
+/* .BANNER */
+.banner>ul>li{max-height: 30vh;}
+
+/* .FOCUSTRUTH */
+.focustruth{
+    flex-direction: column;
+    justify-content: start;
+}
+.focustruth>div:first-child{
+    width: 100%;
+    height: 40%;
+}
+.focustruth>div:first-child>img{
+    width: 100%;
+    height: 40%;
+}
+/* FOOTER */
+footer>p:last-child{
+    width: 100%;
+    text-align: center;
+}
+.footer-lists{
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    padding: 0 0 0 5%;
+}
+.footer-lists>li{padding: 5% 0;}
+footer>hr{width: 100%!important;}
