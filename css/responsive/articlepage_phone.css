@@ -1,7 +1,7 @@
 /* <NAV> */
 template-nav{flex-direction: column;}
 .LOGO{padding: 0; margin: 0 auto;}
-template-nav ul {
+template-nav>ul {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -9,9 +9,8 @@ template-nav ul {
     border-bottom: 1px solid gray;
     background-color: white;
 }
-template-nav ul li{line-height: 40px;margin: 0 20px;}
-template-nav ul li a{font-size: 15px;color: gray;}
-
+template-nav>ul>li{line-height: 40px;margin: 0 20px; font-weight:normal;}
+template-nav>ul>li>a{color: gray;}
 /* .CONTENT */
 .content{
     width: 94%;

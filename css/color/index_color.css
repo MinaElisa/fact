@@ -2,11 +2,10 @@
 nav{background-color: black;}
 .LOGO>p{color:whitesmoke;}
 .LOGO:hover{color: rgb(255, 255, 255);}
-nav ul li a{color:white}
+nav>ul>li a{color:white}
 
 main{background-color: rgb(247, 247, 247);}
 
-.banner a:hover{color: #ecf4ff;}
 .banner div:first-child{background-color: #00317a;color: white;}
 .banner a{color: white;}
 .bannertitle p:last-of-type{color: lightslategray;}
@@ -14,11 +13,27 @@ main{background-color: rgb(247, 247, 247);}
 .featured div p{color: gray;}
 .featured div a{color: black;}
 
-.quickcontent>section:first-child>h2{background-color: rgb(30, 46, 68); border-bottom: 2px solid gray; color: whitesmoke;}
-.quickcontent article{background-color: rgb(226, 231, 236);}
-.quickcontent .btn-expand{border: solid 1px gray; color: gray;}
-.quickcontent .btn-expand:hover{ background-color: rgb(215, 218, 223);}
-.quickcontent>section:last-child p{color: white;}
+.quickcontent>section:first-child>h2 {
+    background-color: black;
+    border-bottom: 3px solid green;
+    color: whitesmoke;
+}
+.quickcontent article {
+    background-color: rgb(226, 231, 236);
+}
+
+.quickcontent .btn-expand {
+    border: solid 1px gray;
+    color: gray;
+}
+
+.quickcontent .btn-expand:hover {
+    background-color: rgb(215, 218, 223);
+}
+
+.quickcontent>section:last-child p {
+    color: white;
+}
 
 .emergency a{color: black;}
 /* FOOTER */

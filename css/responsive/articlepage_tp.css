@@ -1,4 +1,4 @@
 /* <NAV> */
 template-nav{justify-content: center;}
-.LOGO{padding-left: 0;}
-template-nav ul{margin-right: 0;}
+.LOGO{padding: 0;}
+template-nav>ul{padding: 0}

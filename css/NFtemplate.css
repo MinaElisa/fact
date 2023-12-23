@@ -1,33 +1,33 @@
-/* ------------------------------------ */
 template-nav{
     display: flex;
     justify-content: space-between;
     width: 100%;
     height: auto;
 }
+template-nav *{user-select: none;}
 .LOGO{
     width: auto;
     height: auto;
-    padding: 0 0 0 330px;
+    padding: 0 0 0 17%;
     font-weight: bolder;
-    user-select: none;
 }
 .LOGO>p{
     display: inline-block;
     font-size: 40px;
     line-height: 80px;
 }
-template-nav ul{
-    padding: 0 330px 0 0;
-    user-select: none;
+template-nav>ul{
+    padding: 0 17% 0 0;
 }
-template-nav ul li{
+template-nav>ul li{
     display: inline-block;
     line-height: 80px;
+    font-weight: bold;
     margin: 0 30px;
 }
 /* ------------------------------------ */
-footer{
+template-footer{
+    display: block;
     width: 100%;
     height: auto;
     padding: 20px 0px;
@@ -42,5 +42,6 @@ footer{
     padding: 25px 10%;
 }
 .footer-lists>li>p:first-child{padding-bottom: 5px;}
+.bottomlogo{cursor: not-allowed;}
 .bottomlogo>p:first-child{font-size: 40px; font-weight: bolder; font-family:Georgia, 'Times New Roman', Times, serif;}
-footer .sign{text-align: center;font-size:0.8em;}
+.sign{text-align: center;font-size:0.8em;}

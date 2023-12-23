@@ -1,4 +1,4 @@
-html,body{min-height: 100%;}
+html,body{max-width: 100%; min-height: 100%;}
 /* ------------------------------------ */
 nav{
     display: flex;
@@ -6,25 +6,25 @@ nav{
     width: 100%;
     height: auto;
 }
+nav *{user-select: none; box-sizing: border-box;}
 .LOGO{
     width: auto;
     height: auto;
     padding: 0 0 0 17%;
     font-weight: bolder;
-    user-select: none;
 }
 .LOGO>p{
     display: inline-block;
     font-size: 40px;
     line-height: 80px;
 }
-nav ul{
+nav>ul{
     padding: 0 17% 0 0;
-    user-select: none;
 }
-nav ul li{
+nav>ul li{
     display: inline-block;
     line-height: 80px;
+    font-weight: bold;
     margin: 0 30px;
 }
 /* ------------------------------------ */
@@ -64,7 +64,6 @@ main{
     width: 100%;
     height: auto;
 }
-
 .featured{
     width: 100%;
     height: auto;
@@ -110,7 +109,7 @@ main{
     float: left;
     width: 70%;
     height: auto;
-    padding-right: 5%;
+    padding:0 5% 0 0;
     box-sizing: border-box;
 }
 .quickcontent>section:first-child>h2{padding-left: 10px; box-sizing: border-box;}
@@ -119,9 +118,8 @@ main{
     flex-direction: column;
     width: 100%;
     height: auto;
-    padding: 0px 10px;
+    padding: 0 10px;
     box-sizing: border-box;
-
 }
 .cutoff-text{
     text-indent: 2em;
@@ -152,20 +150,21 @@ main{
 .btn-expand::before{content: '展开';}
 .btn-expand:checked::before{content: '收起';}
 .cutoff-text:has(+ .btn-expand:checked){max-height: none;}
-/*  */
 .quickcontent>section:last-child{
     display: flex;
     flex-direction: column;
     float: left;
     width: 29%;
     height: auto;
+    padding: 0 0 0 5%;
+    box-sizing: border-box;
 }
 .quickcontent>section:last-child div{
-    width: 90%;
+    width: 100%;
     height: auto;
-    margin-bottom: 5%;
+    margin:0 0 5% 0;
     box-sizing: border-box;
-    position: relative;/* 仅用于p标题的定位 */
+    position: relative;
 }
 .quickcontent>section:last-child div p{
     width: 100%;
@@ -213,7 +212,7 @@ main{
 }
 .emergency>ul>li>div:last-child{
     width: auto;
-    height: 90px;
+    height: auto;
     float: left;
     box-sizing: border-box;
 }
@@ -241,5 +240,6 @@ footer{
     padding: 25px 10%;
 }
 .footer-lists>li>p:first-child{padding-bottom: 5px;}
+.bottomlogo{cursor: not-allowed;}
 .bottomlogo>p:first-child{font-size: 40px; font-weight: bolder; font-family:Georgia, 'Times New Roman', Times, serif;}
-footer .sign{text-align: center;font-size:0.8em;}
+.sign{text-align: center;font-size:0.8em;}

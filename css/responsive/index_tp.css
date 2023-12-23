@@ -2,7 +2,7 @@
 /* <NAV> */
 nav{justify-content: center;}
 .LOGO{padding: 0;}
-nav ul{padding: 0}
+nav>ul{padding: 0}
 /* .BANNER */
 .banner div:first-child{padding: 10px;}
 .bannertitle p:first-of-type{margin-top: 0;}

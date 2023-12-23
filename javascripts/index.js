@@ -1,7 +1,6 @@
 console.log("[index.js]started.")
 
 window.onload=function(){
-
     //Set up images in batches
     var e_emergency = document.getElementsByClassName('emergency')[0];
     var icons1 = e_emergency.querySelectorAll("[id='icon']");
@@ -9,35 +8,12 @@ window.onload=function(){
         
         icons1[i].style.backgroundImage='url("./res/icon/icon_index'+(i+1)+'.png")';
     }
-
     // Under .quickconnet, auto insert black space after <br>.
     var div = document.getElementsByClassName('quickcontent')[0];
     var br=div.getElementsByTagName('br');
     for(var x=0;x<br.length;x++){
         br[x].insertAdjacentHTML('afterend','&emsp;&emsp;');
     }
-    
-    // 已废弃的'文本折叠展开'功能代码
-    // var quickcontent = document.getElementsByClassName("quickcontent")[0];
-    // var textfolds = quickcontent.getElementsByTagName('li');
-    // for(var i=0;i<textfolds.length;i++){
-    //     if(textfolds[i].clientHeight < textfolds[i].scrollHeight){
-    //         textfolds[i].insertAdjacentHTML('afterend','<button id="btnfold">Expand</button>');
-    //     }
-    // }
-
-    // var btn = quickcontent.getElementsByTagName('button');
-    // for(var x=0;x<btn.length;x++){
-    //     btn[x].addEventListener('click', function() {
-    //         if(window.getComputedStyle(this.previousElementSibling,null).height==='100px'){
-    //             this.previousElementSibling.style.height="auto";
-    //             this.innerHTML='Clip';
-    //         }else{
-    //             this.previousElementSibling.style.height="100px";
-    //             this.innerHTML='Expand';
-    //         }
-    //     });
-    // }
 }
 let header = document.getElementsByTagName('nav')[0];
 window.onscroll =()=>{
@@ -69,7 +45,7 @@ window.onscroll =()=>{
         if(top >20){
             header.style = "position:fixed;top:0; z-index:9;";
             p1.style='font-size:40px; line-height:40px;';
-            main.style='margin-top:100px;';
+            main.style='margin-top:119px;';
         }
         if(top <1){
             header.style = "position:static;";

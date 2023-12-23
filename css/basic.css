@@ -4,31 +4,31 @@
     scroll-behavior: smooth;
     text-decoration: none;
 }
+body{background-color: rgb(247, 247, 247);}
 ul{list-style: none;}
-
 /* Normal Font set */
 h1{padding: 10px 0;font-size: 2em; text-decoration: underline;}
 h2{padding: 10px 0;}
 h3{padding: 10px 0;}
 p{font-size: 1em;}
 a:hover{text-decoration: underline;}
-/* Colorful Font set */
-#redunderline{
+/* Colorful Font */
+.t_redunderline{
     text-decoration: underline;
     text-decoration-color: red;
 }
-#redalert{
+.t_redbox{
     background-color: rgb(219, 58, 58);
     color: rgb(235, 235, 235);
     border-radius: 4px;
 }
-.timelabel{
+.t_time{
     font-size: 0.75em;
     color: gray;
 }
 /* ScrollBar */
 ::-webkit-scrollbar{
-    width: 10px;
+    width: 5px;
     background-color: transparent;
     color: transparent;
 }
