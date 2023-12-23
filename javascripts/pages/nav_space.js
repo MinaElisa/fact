@@ -28,49 +28,56 @@ window.onscroll =()=>{
     let p1=logo.getElementsByTagName('p')[0];
     let p2=logo.getElementsByTagName('p')[1];
     let lis=header.getElementsByTagName('li');
+    let main = document.getElementsByTagName('main')[0];
 
     const mediaQueryPC = window.matchMedia('(min-width: 1230px)')
     const mediaQueryPhone = window.matchMedia('(max-width: 800px)')
     const mediaQueryTP = window.matchMedia('(min-width:800px) and (max-width: 1230px)')
 
     if(mediaQueryPC.matches){
-        if(top >22){
+        if(top >20){
             header.style = "position:fixed;top:0; z-index:9;";
-            p1.style='font-size:40px; line-height:40px;'
-            p2.style='font-size:30px; line-height:40px; color:gray; vertical-align: top;'
+            p1.style='font-size:40px; line-height:40px;';
+            p2.style='font-size:30px; line-height:40px; color:gray; vertical-align: top;';
             for(var i=0;i<lis.length;i++){lis[i].style='line-height:40px;';}
+            main.style='margin-top:60px;';
         }
         if(top <1){
             header.style = "position:static;";
-            p1.style='font-size:40px; line-height:80px;'
-            p2.style='font-size:40px; line-height:80px; color:gray;'
+            p1.style='font-size:40px; line-height:80px;';
+            p2.style='font-size:40px; line-height:80px; color:gray;';
             for(var i=0;i<lis.length;i++){lis[i].style='line-height:80px;';}
+            main.style='margin-top:0;';
         }
     }
     if(mediaQueryPhone.matches){
-        if(top >22){
+        if(top >20){
             header.style = "position:fixed;top:0; z-index:9;";
-            p1.style='font-size:40px; line-height:40px;'
-            p2.style='font-size:30px; line-height:40px; color:gray; vertical-align: top;'
+            p1.style='font-size:40px; line-height:40px;';
+            p2.style='font-size:30px; line-height:40px; color:gray; vertical-align: top;';
+            main.style='margin-top:119px;';
         }
         if(top <1){
             header.style = "position:static;";
-            p1.style='font-size:40px; line-height:80px;'
-            p2.style='font-size:40px; line-height:80px; color:gray;'
+            p1.style='font-size:40px; line-height:80px;';
+            p2.style='font-size:40px; line-height:80px; color:gray;';
+            main.style='margin-top:0px;';
         }
     }
     if(mediaQueryTP.matches){
-        if(top >22){
+        if(top >20){
             header.style = "position:fixed;top:0; z-index:9;";
-            p1.style='font-size:40px; line-height:40px;'
-            p2.style='font-size:30px; line-height:40px; color:gray; vertical-align: top;'
+            p1.style='font-size:40px; line-height:40px;';
+            p2.style='font-size:30px; line-height:40px; color:gray; vertical-align: top;';
             for(var i=0;i<lis.length;i++){lis[i].style='line-height:40px;';}
+            main.style='margin-top:60px;';
         }
         if(top <1){
             header.style = "position:static;";
-            p1.style='font-size:40px; line-height:80px;'
-            p2.style='font-size:40px; line-height:80px; color:gray;'
+            p1.style='font-size:40px; line-height:80px;';
+            p2.style='font-size:40px; line-height:80px; color:gray;';
             for(var i=0;i<lis.length;i++){lis[i].style='line-height:80px;';}
+            main.style='margin-top:0px;';
         }
     }
 }

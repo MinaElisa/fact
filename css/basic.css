@@ -28,7 +28,7 @@ a:hover{text-decoration: underline;}
 }
 /* ScrollBar */
 ::-webkit-scrollbar{
-    width: 5px;
+    width: 10px;
     background-color: transparent;
     color: transparent;
 }

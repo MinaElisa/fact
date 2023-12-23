@@ -1,9 +1,9 @@
 main{background-color: rgb(247, 247, 247);}
-.content h2{ color: black;}
+.content h2{ color: black;border-left: solid 8px red;}
 .content h3{color:black;}
 .content h4{color:  black; text-indent: 1em;}
 .content p{color: black;}
 article{border-right: 1px solid black;}
-article ul>li:last-child{border-bottom: 1px solid black;}
+/* article ul>li:last-child{border-bottom: 1px solid black;} */
 .sidepanel a{color: rgb(0, 57, 179);}
 .bottompanel{background-color:rgb(179, 179, 179);}

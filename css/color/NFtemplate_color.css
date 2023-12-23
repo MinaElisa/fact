@@ -4,8 +4,8 @@ template-nav{background-color: black;}
 template-nav ul li a{color:white}
 /* FOOTER */
 template-footer{background: rgb(0, 16, 51);}
-template-footer>p{color: gray;}
-.footer-lists>li>p:first-child{color: white;}
-.footer-lists a{color: gray; }
-.bottomlogo>p{color: gray;}
+.footer-lists p:first-child{color: white;}
+.footer-lists p{color: gray;}
+.footer-lists a{color: gray;}
+.bottomlogo>p:first-child{color: white;}
 template-footer>hr{border: 1px solid gray;}

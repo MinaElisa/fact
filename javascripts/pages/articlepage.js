@@ -48,7 +48,7 @@ window.onscroll =()=>{
             header.style = "position:fixed;top:0; z-index:9;";
             p1.style='font-size:40px; line-height:40px;';
             p2.style='font-size:30px; line-height:40px; color:gray; vertical-align: top;';
-            main.style='margin-top:100px;';
+            main.style='margin-top:119px;';
         }
         if(top <1){
             header.style = "position:static;";

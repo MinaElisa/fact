@@ -31,7 +31,7 @@ template-nav ul li a{color: gray;}
     height: 40%;
 }
 /* FOOTER */
-footer>p:last-child{
+template-footer>p:last-child{
     width: 100%;
     text-align: center;
 }
@@ -41,4 +41,4 @@ footer>p:last-child{
     padding: 0 0 0 5%;
 }
 .footer-lists>li{padding: 5% 0;}
-footer>hr{width: 100%!important;}
+template-footer>hr{width: 100%!important;}

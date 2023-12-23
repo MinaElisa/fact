@@ -38,8 +38,8 @@ main{background-color: rgb(247, 247, 247);}
 .emergency a{color: black;}
 /* FOOTER */
 footer{background: rgb(0, 16, 51);}
-footer>p{color: gray;}
-.footer-lists>li>p:first-child{color: white;}
-.footer-lists a{color: gray; }
-.bottomlogo>p{color: gray;}
+.footer-lists p:first-child{color: white;}
+.footer-lists p{color: gray;}
+.footer-lists a{color: gray;}
+.bottomlogo>p:first-child{color: white;}
 footer>hr{border: 1px solid gray;}
