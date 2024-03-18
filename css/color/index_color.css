@@ -4,7 +4,7 @@ nav{background-color: black;}
 .LOGO:hover{color: rgb(255, 255, 255);}
 nav>ul>li a{color:white}
 
-main{background-color: rgb(247, 247, 247);}
+main{background-color: rgb(201, 201, 201);}
 
 .banner div:first-child{background-color: #00317a;color: white;}
 .banner a{color: white;}
@@ -15,31 +15,26 @@ main{background-color: rgb(247, 247, 247);}
 
 .quickcontent>section:first-child>h2 {
     background-color: black;
-    border-bottom: 3px solid green;
+    border-bottom: 3px solid rgb(0, 41, 129);
     color: whitesmoke;
 }
-.quickcontent article {
-    background-color: rgb(226, 231, 236);
-}
+.quickcontent article {background-color: rgb(144, 149, 156);}
 
 .quickcontent .btn-expand {
     border: solid 1px gray;
     color: gray;
 }
+.quickcontent .btn-expand{background-color: rgb(159, 161, 163);}
+.quickcontent .btn-expand:hover{background-color: rgb(111, 113, 114);}
 
-.quickcontent .btn-expand:hover {
-    background-color: rgb(215, 218, 223);
-}
-
-.quickcontent>section:last-child p {
-    color: white;
-}
+.quickcontent>section:last-child p {color: white;}
 
 .emergency a{color: black;}
 /* FOOTER */
 footer{background: rgb(0, 16, 51);}
-.footer-lists p:first-child{color: white;}
+.footer-lists p:first-child{color: rgb(202, 204, 214);}
 .footer-lists p{color: gray;}
 .footer-lists a{color: gray;}
 .bottomlogo>p:first-child{color: white;}
 footer>hr{border: 1px solid gray;}
+.sign{color: gray;}

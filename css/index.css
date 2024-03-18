@@ -68,7 +68,7 @@ main{
     width: 100%;
     height: auto;
     min-height: 30vh;
-    padding-top: 30px;
+    padding-top: 50px;
     box-sizing: border-box;
 }
 .featured ul{
@@ -118,7 +118,7 @@ main{
     flex-direction: column;
     width: 100%;
     height: auto;
-    padding: 0 10px;
+    padding: 0 15px 10px 15px;
     box-sizing: border-box;
 }
 .cutoff-text{
@@ -137,19 +137,22 @@ main{
     width: 100%;
     bottom: 0;left: 0;
     pointer-events: none;
-    background:linear-gradient(to bottom, transparent,rgb(226, 231, 236));
+    background:linear-gradient(to bottom, transparent,rgb(144, 149, 156));
 }
+.cutoff-text:has(+ .btn-expand:checked){max-height: none;}
 .btn-expand{
     width: 12%;
     appearance: none;
-    text-align: right;
-    padding-right: 2%;
+    text-align: center;
+    font-weight: bolder;
     margin-left: 88%;
     cursor: pointer;
+
 }
-.btn-expand::before{content: '展开';}
+.btn-expand::before{content: '展开'; color: black;}
 .btn-expand:checked::before{content: '收起';}
-.cutoff-text:has(+ .btn-expand:checked){max-height: none;}
+
+/* Panel right to Quick KuaiLan */
 .quickcontent>section:last-child{
     display: flex;
     flex-direction: column;
@@ -239,7 +242,8 @@ footer{
     height: auto;
     padding: 25px 10%;
 }
-.footer-lists>li>p:first-child{padding-bottom: 5px;}
+.footer-lists>li>p:first-child{padding-bottom: 12px;}
+.footer-lists>li>p{margin-top:10px;}
 .bottomlogo{cursor: not-allowed;}
 .bottomlogo>p:first-child{font-size: 40px; font-weight: bolder; font-family:Georgia, 'Times New Roman', Times, serif;}
 .sign{text-align: center;font-size:0.8em;}
