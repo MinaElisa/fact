@@ -96,7 +96,9 @@ main{
     padding: 0 5px;
     box-sizing: border-box;
 }
+.featured>ul>li>div:last-child>a{text-decoration: underline; font-weight: bolder;}
 
+/* .quickcontent */
 .quickcontent{
     width: 100%;
     height: auto;
@@ -104,12 +106,13 @@ main{
     padding: 20px 0;
     box-sizing: border-box;
     overflow: hidden;/*Fix the subcontent doesnt effect its demision only.*/
+
+    border-bottom: 4px solid black;
 }
 .quickcontent>section:first-child{
     float: left;
     width: 70%;
     height: auto;
-    padding:0 5% 0 0;
     box-sizing: border-box;
 }
 .quickcontent>section:first-child>h2{padding-left: 10px; box-sizing: border-box;}
@@ -118,7 +121,7 @@ main{
     flex-direction: column;
     width: 100%;
     height: auto;
-    padding: 0 15px 10px 15px;
+    padding: 0 30px 10px 30px;
     box-sizing: border-box;
 }
 .cutoff-text{
@@ -157,7 +160,7 @@ main{
     display: flex;
     flex-direction: column;
     float: left;
-    width: 29%;
+    width: 30%;
     height: auto;
     padding: 0 0 0 5%;
     box-sizing: border-box;
@@ -200,7 +203,7 @@ main{
     height: auto;
     box-sizing: border-box;
 }
-.emergency>ul *{box-sizing: border-box; border: solid 1px red;}
+.emergency>ul *{box-sizing: border-box;}
 .emergency>ul>li{
     padding: 2% 0;
 }

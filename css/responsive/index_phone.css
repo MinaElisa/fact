@@ -1,16 +1,15 @@
 /* <NAV> */
 nav{flex-direction: column;}
 .LOGO{padding: 0; margin: 0 auto;}
-nav>ul {
+nav>ul{
     display: flex;
     justify-content: center;
     width: 100%;
     padding: 0;
-    border-bottom: 1px solid gray;
-    background-color: white;
+    color: lightgray;
+    background-color: rgb(58, 58, 58);
 }
-nav>ul>li{line-height: 110%;margin: 0 20px; font-weight:normal;}
-nav>ul>li>a{color: gray;}
+nav>ul>li{line-height: 140%;margin: 0 20px; font-weight:normal;}
 
 /* .CONTENT */
 .content{width: 94%;}
@@ -39,9 +38,6 @@ nav>ul>li>a{color: gray;}
 .featured ul li a img{border-radius: 8px;border: none; overflow: hidden;}
 
 /* .QUICKCONTENT */
-.quickcontent>section:first-child>article>h3 {
-    padding-top: 0;
-}
 .quickcontent>section:first-child {
     float: none;
     width: 100%;
@@ -64,7 +60,7 @@ nav>ul>li>a{color: gray;}
     justify-content: space-between;
     float: none;
     width: 100%;
-    padding-top: 5%;
+    padding: 5% 0 0 0;
 }
 .quickcontent>section:last-child>div{width: 48%; border-radius: 8px; overflow: hidden;}
 .quickcontent>section:last-child p{font-size: 0.75em;}
@@ -93,7 +89,7 @@ nav>ul>li>a{color: gray;}
     padding: 2px;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
-    background-color: rgb(185, 185, 185);
+    background-color: gray;
 }
 .emergency>ul>li p:first-child{
     text-indent: 0rem;

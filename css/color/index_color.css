@@ -2,13 +2,13 @@
 nav{background-color: black;}
 .LOGO>p{color:whitesmoke;}
 .LOGO:hover{color: rgb(255, 255, 255);}
-nav>ul>li a{color:white}
+nav>ul>li a{color:rgb(204, 204, 204)}
 
 main{background-color: rgb(201, 201, 201);}
 
-.banner div:first-child{background-color: #00317a;color: white;}
-.banner a{color: white;}
-.bannertitle p:last-of-type{color: lightslategray;}
+.banner div:first-child{background-color: #00317a;}
+.bannertitle *{color: lightgray;}
+.bannertitle .timelabel{color: lightslategray;}
 
 .featured div p{color: gray;}
 .featured div a{color: black;}
