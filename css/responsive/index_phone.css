@@ -9,7 +9,7 @@ nav>ul {
     border-bottom: 1px solid gray;
     background-color: white;
 }
-nav>ul>li{line-height: 40px;margin: 0 20px; font-weight:normal;}
+nav>ul>li{line-height: 110%;margin: 0 20px; font-weight:normal;}
 nav>ul>li>a{color: gray;}
 
 /* .CONTENT */

@@ -1,8 +1,14 @@
-/* @media (min-width:800px) and (max-width:1233px) */
+/* @media (min-width:800px) and (max-width:1400px) */
 /* <NAV> */
 nav{justify-content: center;}
 .LOGO{padding: 0;}
 nav>ul{padding: 0}
+
+/* .Content */
+.content{
+    min-width: 700px;
+}
 /* .BANNER */
 .banner div:first-child{padding: 10px;}
 .bannertitle p:first-of-type{margin-top: 0;}
+
