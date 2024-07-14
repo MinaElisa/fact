@@ -96,7 +96,7 @@ main{
     padding: 0 5px;
     box-sizing: border-box;
 }
-.featured>ul>li>div:last-child>a{text-decoration: underline; font-weight: bolder;}
+.featured>ul>li>div:last-child>a{font-weight: bolder;}
 
 /* .quickcontent */
 .quickcontent{

@@ -38,6 +38,7 @@ nav>ul>li{line-height: 140%;margin: 0 20px; font-weight:normal;}
     width: 100%;
     padding: 0;
 }
+.quickcontent>section>article{padding: 0 10px 10px 10px;}
 .quickcontent>section:first-child>h2{border-top-left-radius: 8px;border-top-right-radius: 8px;}
 .quickcontent>section:first-child article:last-child {border-bottom-left-radius: 8px;border-bottom-right-radius: 8px;}
 .btn-expand {

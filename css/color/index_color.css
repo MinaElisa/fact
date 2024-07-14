@@ -7,7 +7,7 @@ nav>ul>li a{color:white}
 main{background-color: rgb(201, 201, 201);}
 
 .banner div:first-child{background-color: #00317a;}
-.bannertitle *{color: lightgray;}
+.bannertitle *{color: white;}
 .bannertitle .timelabel{color: lightslategray;}
 .featured div p{color: gray;}
 .featured div a{color: black;}
