@@ -6,10 +6,9 @@ template-nav>ul {
     justify-content: center;
     width: 100%;
     padding: 0;
-    background-color: rgb(58, 58, 58);
 }
 template-nav>ul>li{line-height: 140%;margin: 0 20px; font-weight:normal;}
-template-nav>ul>li>a{color:lightgray}
+
 
 /* .CONTENT */
 .content{

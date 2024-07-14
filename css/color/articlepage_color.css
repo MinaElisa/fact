@@ -8,3 +8,8 @@ main{background-color: rgb(247, 247, 247);}
 article{border-right: 1px solid black;}
 a{color: darkblue;}
 .bottompanel{background-color:rgb(179, 179, 179);}
+
+@media (max-width:800px){
+    template-nav>ul{background-color: rgb(58, 58, 58);}
+    template-nav>ul>li>a{color:lightgray}
+}

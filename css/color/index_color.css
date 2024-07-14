@@ -9,26 +9,22 @@ main{background-color: rgb(201, 201, 201);}
 .banner div:first-child{background-color: #00317a;}
 .bannertitle *{color: lightgray;}
 .bannertitle .timelabel{color: lightslategray;}
-
 .featured div p{color: gray;}
 .featured div a{color: black;}
-
 .quickcontent>section:first-child>h2 {
     background-color: black;
     border-bottom: 3px solid rgb(0, 41, 129);
     color: whitesmoke;
 }
 .quickcontent article {background-color: rgb(144, 149, 156);}
-
 .quickcontent .btn-expand {
     border: solid 1px gray;
     color: gray;
 }
 .quickcontent .btn-expand{background-color: rgb(159, 161, 163);}
 .quickcontent .btn-expand:hover{background-color: rgb(111, 113, 114);}
-
 .quickcontent>section:last-child p {color: white;}
-
+.emergency p{color: black;}
 .emergency a{color: black;}
 /* FOOTER */
 footer{background: rgb(0, 16, 51);}
@@ -38,3 +34,17 @@ footer{background: rgb(0, 16, 51);}
 .bottomlogo>p:first-child{color: white;}
 footer>hr{border: 1px solid gray;}
 .sign{color: gray;}
+
+@media (max-width:800px) {
+    /* <NAV> */
+    nav>ul{background-color: rgb(58, 58, 58);}
+    nav>ul>li>a{color:lightgray}
+    .emergency>ul::-webkit-scrollbar-thumb{background-color: black; border-radius: 10px;}
+    .emergency>ul>li>div:last-child{background-color: black;}
+    .emergency>ul>li>div:last-child>p>a{color: white;}
+    .emergency>ul>li>div:last-child>p{color: gray;}
+}
+
+@media (min-width:800px) and (max-width:1400px){
+
+}
