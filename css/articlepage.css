@@ -21,11 +21,12 @@ article{
     padding: 25px;
     box-sizing: border-box;
 }
+article cite{display: list-item; height: auto; box-sizing: border-box; padding-top: 20px;}
 .imagecontent{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 80%;
+    width: 100%;
     margin: 2% auto;
     padding: 2%;
     box-sizing: border-box;
@@ -61,3 +62,4 @@ article{
 .content h3{font-weight:800;}
 .content p{line-height: 150%; text-indent: 2em;}
 .sidepanel a{font-style: italic;}
+cite{font-size: 0.9em;}
