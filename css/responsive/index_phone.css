@@ -70,8 +70,14 @@ nav>ul>li>a{color:lightgray}
     display: flex;
     flex-direction: row;
     overflow-y: auto;
+    padding-bottom: 10px;
 }
-.emergency>ul::-webkit-scrollbar{display: none;}
+.emergency>ul::-webkit-scrollbar{
+    width: 2px;
+    height: 5px;
+}
+.emergency>ul::-webkit-scrollbar-thumb{background-color: black;}
+/* .emergency>ul::-webkit-scrollbar{display: none;} */
 .emergency>ul>li {
     margin: 0 17px 0 0;
     padding: 0;
