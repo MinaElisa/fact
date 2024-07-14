@@ -1,16 +1,16 @@
 /* <NAV> */
 template-nav{flex-direction: column;}
-.LOGO{padding: 0; margin: 0 auto;}
+template-nav>.LOGO{padding: 0; margin: 0 auto;}
 template-nav>ul {
     display: flex;
     justify-content: center;
     width: 100%;
     padding: 0;
-    border-bottom: 1px solid gray;
-    background-color: white;
+    background-color: rgb(58, 58, 58);
 }
-template-nav>ul>li{line-height: 40px;margin: 0 20px; font-weight:normal;}
-template-nav>ul>li>a{color: gray;}
+template-nav>ul>li{line-height: 140%;margin: 0 20px; font-weight:normal;}
+template-nav>ul>li>a{color:lightgray}
+
 /* .CONTENT */
 .content{
     width: 94%;

@@ -6,11 +6,10 @@ nav>ul{
     justify-content: center;
     width: 100%;
     padding: 0;
-    color: lightgray;
     background-color: rgb(58, 58, 58);
 }
 nav>ul>li{line-height: 140%;margin: 0 20px; font-weight:normal;}
-
+nav>ul>li>a{color:lightgray}
 /* .CONTENT */
 .content{width: 94%;}
 
@@ -32,9 +31,9 @@ nav>ul>li{line-height: 140%;margin: 0 20px; font-weight:normal;}
 }
 
 /* .FEATURED*/
-.featured ul li{width: 50%;}
+.featured>ul>li{width: 48%;}
 .featured li>div{height: auto;}
-.featured div p:last-child{position:static; padding-bottom: 0;}
+.featured>ul>li>div p:last-child{position:static; padding-bottom: 0;}
 .featured ul li a img{border-radius: 8px;border: none; overflow: hidden;}
 
 /* .QUICKCONTENT */

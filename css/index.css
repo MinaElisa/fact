@@ -64,6 +64,7 @@ main{
     width: 100%;
     height: auto;
 }
+/* .FEATURED*/
 .featured{
     width: 100%;
     height: auto;
@@ -71,18 +72,17 @@ main{
     padding-top: 50px;
     box-sizing: border-box;
 }
-.featured ul{
+.featured>ul{
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
     height: auto;
 }
-.featured ul li{
-    width: 25%;
+.featured>ul>li{
+    width: 22%;
     height:auto;
 }
-.featured>ul>li>div:first-child{padding: 5px;}
 .featured>ul>li>div:first-child>a{
     display: block;
     height: auto;
