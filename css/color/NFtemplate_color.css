@@ -1,3 +1,4 @@
+/* 仅用来设置顶部和底部模板页面的一切颜色属性 */
 template-nav{background-color: black;}
 .LOGO>p>a{color:whitesmoke;}
 .LOGO:hover{color: rgb(255, 255, 255);}

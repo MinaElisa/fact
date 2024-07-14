@@ -1,3 +1,4 @@
+/* 仅用来设置文章页面的常规属性，不包含颜色(除特殊)、字体大小 */
 html,body{max-width: 100%; min-height: 100%;}
 /* ------------------------------------ */
 main{
@@ -30,7 +31,7 @@ article cite{display: list-item; height: auto; box-sizing: border-box; padding-t
     margin: 2% auto;
     padding: 2%;
     box-sizing: border-box;
-    background-color: rgb(134, 201, 148);
+    background-color: rgb(255, 237, 237);
 }
 .imagecontent>div:first-child{
     width: 30%;
@@ -44,7 +45,7 @@ article cite{display: list-item; height: auto; box-sizing: border-box; padding-t
     width: 70%;
     padding: 1em;
     box-sizing: border-box;
-    background-color:rgb(115, 180, 129);
+    background-color:rgb(255, 226, 226);
 }
 .sidepanel{
     padding: 25px;

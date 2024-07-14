@@ -1,9 +1,10 @@
+/* 仅用来设置文章页面的一切颜色属性 */
+
 main{background-color: rgb(247, 247, 247);}
-.content h2{ color: black;border-left: solid 8px red;background-color: rgb(230, 230, 230);}
+.content h2{ color: black;border-left: solid 8px rgb(189, 0, 0);background-color: rgb(230, 230, 230);}
 .content h3{color:black;}
 .content h4{color:  black; text-indent: 1em;}
 .content p{color: black;}
 article{border-right: 1px solid black;}
-article cite a{color: darkblue;}
-.sidepanel a{color: rgb(0, 57, 179);}
+a{color: darkblue;}
 .bottompanel{background-color:rgb(179, 179, 179);}

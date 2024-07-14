@@ -1,4 +1,4 @@
-console.log("[templateMgr.js]templateMgr.js started.");
+
 class TemplateNav extends HTMLElement{
     connectedCallback() {
         this.innerHTML=`

@@ -1,4 +1,4 @@
-
+/* 仅用来设置主页面的一切颜色属性 */
 nav{background-color: black;}
 .LOGO>p{color:whitesmoke;}
 .LOGO:hover{color: rgb(255, 255, 255);}

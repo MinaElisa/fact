@@ -1,3 +1,4 @@
+/* 仅用来设置顶部和底部模板页面的常规属性，不包含颜色 */
 template-nav{
     display: flex;
     justify-content: space-between;
