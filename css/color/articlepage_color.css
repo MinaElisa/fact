@@ -1,6 +1,6 @@
 /* 仅用来设置文章页面的一切颜色属性 */
 
-main{background-color: rgb(247, 247, 247);}
+main{background-color: rgb(242, 242, 242);}
 .content h2{ color: black;border-left: solid 8px rgb(189, 0, 0);background-color: rgb(230, 230, 230);}
 .content h3{color:black;}
 .content h4{color:  black; text-indent: 1em;}

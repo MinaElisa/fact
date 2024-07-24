@@ -5,7 +5,6 @@
     scroll-behavior: smooth;
     text-decoration: none;
 }
-body{background-color: rgb(247, 247, 247);}
 ul{list-style: none;}
 /* Normal Font set */
 h1{padding: 10px 0;font-size: 2em; text-decoration: underline;}

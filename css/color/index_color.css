@@ -4,19 +4,20 @@ nav{background-color: black;}
 .LOGO:hover{color: rgb(255, 255, 255);}
 nav>ul>li a{color:white}
 
-main{background-color: rgb(201, 201, 201);}
+main{background-color: rgb(242, 242, 242);}
 
 .banner div:first-child{background-color: #00317a;}
 .bannertitle *{color: white;}
 .bannertitle .timelabel{color: lightslategray;}
 .featured div p{color: gray;}
 .featured div a{color: black;}
-.quickcontent>section:first-child>h2 {
-    background-color: black;
-    border-bottom: 3px solid rgb(0, 41, 129);
-    color: whitesmoke;
+/* .quickcontent */
+.quickcontent>section:first-child{
+    border-bottom: 2px solid black;
 }
-.quickcontent article {background-color: rgb(144, 149, 156);}
+.quickcontent>section h2 {
+    border-bottom: 2px solid black;
+}
 .quickcontent .btn-expand {
     border: solid 1px gray;
     color: gray;
@@ -28,7 +29,7 @@ main{background-color: rgb(201, 201, 201);}
 .emergency a{color: black;}
 /* FOOTER */
 footer{background: rgb(0, 16, 51);}
-.footer-lists p:first-child{color: rgb(202, 204, 214);}
+.footer-lists p:first-child{color: white;}
 .footer-lists p{color: gray;}
 .footer-lists a{color: gray;}
 .bottomlogo>p:first-child{color: white;}
@@ -39,6 +40,7 @@ footer>hr{border: 1px solid gray;}
     /* <NAV> */
     nav>ul{background-color: rgb(58, 58, 58);}
     nav>ul>li>a{color:lightgray}
+    .quickcontent .btn-expand{background-color: white; border: none; border-bottom: 1px solid black;}
     .emergency>ul::-webkit-scrollbar-thumb{background-color: black; border-radius: 10px;}
     .emergency>ul>li>div:last-child{background-color: black;}
     .emergency>ul>li>div:last-child>p>a{color: white;}

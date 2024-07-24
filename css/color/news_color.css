@@ -4,7 +4,7 @@ template-nav{background-color: black;}
 .LOGO:hover{color: rgb(255, 255, 255);}
 template-nav ul li a{color:white}
 /* MAIN */
-body{background-color: white;}
+main{background-color: rgb(242, 242, 242);}
 article>ul div{background-color: gray;}
 /* FOOTER */
 footer{background: rgb(0, 16, 51);}
