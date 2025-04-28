@@ -16,6 +16,11 @@ window.onload=function(){
     }
 }
 let header = document.getElementsByTagName('nav')[0];
+function toggleText(id){
+	const container = document.getElementById(id);
+	container.classList.toggle('collapsed');
+	container.classList.toggle('expanded');
+}
 window.onscroll =()=>{
     let top =document.documentElement.scrollTop || document.body.scrollTop;
     let logo=header.getElementsByClassName('LOGO')[0];

@@ -45,6 +45,8 @@ main{
     justify-content: center;
     width: 100%;
     height: auto;
+	border-radius:8px;
+	overflow:hidden;
 }
 .banner div:first-child{
     width: 40%;
@@ -83,17 +85,23 @@ main{
     width: 22%;
     height:auto;
 }
+
 .featured>ul>li>div:first-child>a{
     display: block;
     width: auto;
     height: auto;
     font-size: 0;/*fix the gap around image in label <a>*/
     box-sizing: border-box;
-
+	border-radius:8px;
     overflow: hidden; /* clip overflowed image for <img> zoom effect*/
 }
-.featured>ul>li img{width: 100%;height: 100%;  transform:scale(1,1);transition: all 0.2s ease-out;}
-.featured>ul>li img:hover{transform:scale(1.1,1.1);}
+.featured img{
+	width: 100%;
+	height: 100%;
+	transform:scale(1,1);
+	transition: all 0.2s ease-out;
+}
+.featured img:hover{transform:scale(1.1,1.1);}
 
 
 .featured>ul>li>div:last-child{
@@ -118,7 +126,7 @@ main{
     height: auto;
     box-sizing: border-box;
 }
-.quickcontent>section:first-child>h2{padding-left: 10px; box-sizing: border-box;}
+.quickcontent>section:first-child>h2{padding:0 10px 10px 10px; box-sizing: border-box;}
 .quickcontent article{
     display: flex;
     flex-direction: column;
@@ -128,37 +136,42 @@ main{
     box-sizing: border-box;
 }
 .cutoff-text{
+	position:relative;
     text-indent: 2em;
-    --max-lines:3;
-    --line-height:1.4;
-    max-height: calc(var(--max-lines) * 1em * var(--line-height));
-    line-height: var(--line-height);
-    overflow: hidden;
-    position: relative;
+	transition: max-height 0.3s ease-in-out;
 }
-.cutoff-text:has(+ .btn-expand:not(:checked))::before{
-    content: '';
+.cutoff-text.collapsed:after {
+    content: "";
     position: absolute;
-    height: calc(1.5em * var(--line-height));
-    width: 100%;
-    bottom: 0;left: 0;
-    pointer-events: none;
-    background:linear-gradient(to bottom, transparent,rgb(242, 242, 242));
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2em; /* 渐变高度 */
+    background: linear-gradient(to top, rgba(242,242,242,1) 0%, rgba(255,255,255,0) 100%);
+    pointer-events: none; /* 允许点击穿透 */
 }
-.cutoff-text:has(+ .btn-expand:checked){max-height: none;}
-.btn-expand{
-    width: 12%;
-    appearance: none;
-    text-align: center;
-    /* font-weight: bolder; */
-    margin-left: 88%;
-    cursor: pointer;
 
+.collapsed {
+	overflow: hidden;
+	max-height: calc(1.5em * 5); /* 显示5行文本 */
 }
-.btn-expand::before{content: '展开'; color: black;}
-.btn-expand:checked::before{content: '收起';}
+.expand-button {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding-left: 30px;
+	cursor: pointer;
+	color:gray;
+	z-index:999;
+}
+.expand-button::after {
+	content: "展开";
+}
+.expanded .expand-button::after {
+	content: "收起";
+}
+.cutoff-text:not(.collapsed)::after{display:none;}
 
-/* Panel right to Quick KuaiLan */
 .quickcontent>section:last-child{
     display: flex;
     flex-direction: column;
@@ -174,6 +187,7 @@ main{
     margin:0 0 5% 0;
     box-sizing: border-box;
     position: relative;
+	border-radius: 8px;overflow:hidden;
 }
 .quickcontent>section:last-child div p{
     width: 100%;
@@ -198,6 +212,7 @@ main{
     padding: 20px 0;
     box-sizing: border-box;
 }
+.emergency div[style*="background-image"]{border-radius:8px;}
 .emergency>ul{
     display: grid;
     grid-template-columns: repeat(4,25%);

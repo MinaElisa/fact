@@ -8,7 +8,7 @@
 ul{list-style: none;}
 /* Normal Font set */
 h1{padding: 10px 0;font-size: 2em; text-decoration: underline;}
-h2{padding: 10px 0;}
+h2{padding: 10px 0;font-size: 1.8em;}
 h3{padding: 10px 0;}
 p{font-size: 1em;}
 a:hover{text-decoration: underline;}
