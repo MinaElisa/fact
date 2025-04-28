@@ -1,11 +1,16 @@
 /* <NAV> */
-nav{flex-direction: column;padding: 0;}
+nav{
+    flex-direction: column;
+    padding: 0;
+
+}
 .LOGO{padding: 0; margin: 0 auto;}
 nav>ul{
     display: flex;
     justify-content: center;
     width: 100%;
-    padding: 0;
+    padding: 4px 0;
+    border-top: solid 4px rgb(37, 37, 37);
 }
 nav>ul>li{line-height: 140%;margin: 0 20px; font-weight:normal;}
 /* .CONTENT */
@@ -58,16 +63,12 @@ nav>ul>li{line-height: 140%;margin: 0 20px; font-weight:normal;}
     border-radius: .25rem;
     font-size: .75em;
 }
-.quickcontent>section:last-child {
-    flex-direction: row;
-    justify-content: space-between;
+.sidequick{
+    flex-direction: column;
     float: none;
     width: 100%;
     padding: 5% 0 0 0;
 }
-.quickcontent>section:last-child>div{width: 48%; border-radius: 8px; overflow: hidden;}
-.quickcontent>section:last-child p{font-size: 0.75em;}
-.quickcontent>section:last-child>div::before{height: 50%;}
 /* .EMERGENCY */
 .emergency{position: relative;}
 .emergency>ul{

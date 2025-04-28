@@ -38,7 +38,7 @@ footer>hr{border: 1px solid gray;}
 
 @media (max-width:800px) {
     /* <NAV> */
-    nav>ul{background-color: rgb(58, 58, 58);}
+    nav{background-color: rgb(0 0 0 / 90%);backdrop-filter: blur(4px);-webkit-backdrop-filter: blur(4px);}
     nav>ul>li>a{color:lightgray}
     .quickcontent .btn-expand{background-color: white; border: none; border-bottom: 1px solid black;}
     .emergency>ul::-webkit-scrollbar-thumb{background-color: black; border-radius: 10px;}
