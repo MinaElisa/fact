@@ -5,21 +5,19 @@ nav{
     justify-content: space-between;
     width: 100%;
     height: auto;
+    padding: 0 16%;
+    z-index:100;
 }
-nav *{user-select: none; box-sizing: border-box;}
+nav *{user-select: none;}
 .LOGO{
     width: auto;
     height: auto;
-    padding: 0 0 0 17%;
     font-weight: bolder;
 }
 .LOGO>p{
     display: inline-block;
     font-size: 40px;
     line-height: 80px;
-}
-nav>ul{
-    padding: 0 17% 0 0;
 }
 nav>ul>li{
     display: inline-block;
@@ -29,16 +27,14 @@ nav>ul>li{
 }
 /* ------------------------------------ */
 main{
-    width: 100%;
+    width: auto;
     height: auto;
-    min-width: 100%;
-    min-height: 100vh;
+    min-height: 100%;
 }
 .content{
-    width: 66%;
-    min-height: 90vh;
-    margin: 0 auto;
-    padding: 40px 0;
+    width: 100%;
+    height: auto;
+    padding: 40px 16%;
 }
 .banner{
     display: flex;
@@ -52,7 +48,6 @@ main{
     width: 40%;
     height: auto;
     padding: 40px;
-    box-sizing: border-box;
     position:relative;
 }
 .bannertitle p:first-child{overflow: hidden;}
@@ -72,7 +67,6 @@ main{
     height: auto;
     min-height: 30vh;
     padding-top: 50px;
-    box-sizing: border-box;
 }
 .featured>ul{
     display: flex;
@@ -91,7 +85,6 @@ main{
     width: auto;
     height: auto;
     font-size: 0;/*fix the gap around image in label <a>*/
-    box-sizing: border-box;
 	border-radius:8px;
     overflow: hidden; /* clip overflowed image for <img> zoom effect*/
 }
@@ -107,7 +100,6 @@ main{
 .featured>ul>li>div:last-child{
     height: 60px;
     padding: 0 5px;
-    box-sizing: border-box;
 }
 .featured>ul>li>div:last-child>a{font-weight: bolder;}
 
@@ -116,24 +108,21 @@ main{
     width: 100%;
     height: auto;
     min-height: 20vh;
-    padding: 20px 0;
-    box-sizing: border-box;
+    padding-top:50px;
     overflow: hidden;/*Fix the subcontent doesnt effect its demision only.*/
 }
 .quickcontent>section:first-child{
     float: left;
     width: 70%;
     height: auto;
-    box-sizing: border-box;
 }
-.quickcontent>section:first-child>h2{padding:0 10px 10px 10px; box-sizing: border-box;}
+.quickcontent>section:first-child>h2{padding:0 10px 10px 10px;}
 .quickcontent article{
     display: flex;
     flex-direction: column;
     width: 100%;
     height: auto;
     padding: 0 30px 10px 30px;
-    box-sizing: border-box;
 }
 .cutoff-text{
 	position:relative;
@@ -162,7 +151,7 @@ main{
 	padding-left: 30px;
 	cursor: pointer;
 	color:gray;
-	z-index:999;
+	z-index:50;
 }
 .expand-button::after {
 	content: "展开";
@@ -179,13 +168,11 @@ main{
     width: 30%;
     height: auto;
     padding: 0 0 0 5%;
-    box-sizing: border-box;
 }
 .quickcontent>section:last-child div{
     width: 100%;
     height: auto;
     margin:0 0 5% 0;
-    box-sizing: border-box;
     position: relative;
 	border-radius: 8px;overflow:hidden;
 }
@@ -194,7 +181,6 @@ main{
     position: absolute;
     padding: 0 1em;
     bottom:8%;
-    box-sizing: border-box;
 }
 .quickcontent>section:last-child>div::before{
     content: '';
@@ -209,26 +195,27 @@ main{
     width: 100%;
     height: auto;
     min-height: 20vh;
-    padding: 20px 0;
-    box-sizing: border-box;
+    padding-top:50px;
 }
 .emergency div[style*="background-image"]{border-radius:8px;}
 .emergency>ul{
     display: grid;
-    grid-template-columns: repeat(4,25%);
-    grid-template-rows: 50% 50%;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
     width: 100%;
     height: auto;
-    box-sizing: border-box;
 }
-.emergency>ul *{box-sizing: border-box;}
 .emergency>ul>li{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
     padding: 2% 0;
 }
 .emergency>ul>li>div:first-child {
     width: 100px;
     height: 100px;
-    float: left;
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -239,18 +226,18 @@ main{
     height: auto;
     padding-left:15px;
 }
-.emergency>ul>li p:first-child{
+.emergency h3{
+    padding: 0;
     font-weight: bold;
 }
-.emergency>ul>li p:last-child{
-    font-size: 0.8rem;height: 50%;
+.emergency p{
+    font-size: 0.8rem;
+    height: 50%;
 }
 /* ------------------------------------ */
 footer{
     width: 100%;
     height: auto;
-    padding: 20px 0px;
-    box-sizing: border-box;
     user-select: none;
 }
 .footer-lists{
@@ -258,7 +245,7 @@ footer{
     grid-template-columns: repeat(5,20%);
     grid-template-rows: 100%;
     height: auto;
-    padding: 25px 10%;
+    padding: 6% 16% 4% 16%;
 }
 .footer-lists>li>p:first-child{padding-bottom: 12px;}
 .footer-lists>li>p{margin-top:10px;}

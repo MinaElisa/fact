@@ -6,7 +6,7 @@ window.onload=function(){
     var icons1 = e_emergency.querySelectorAll("[id='icon']");
     for(var i=0;i<icons1.length;i++){
         
-        icons1[i].style.backgroundImage='url("./res/icon/icon_index'+(i+1)+'.png")';
+        icons1[i].style.backgroundImage='url("./res/images/icon_index'+(i+1)+'.png")';
     }
     //Under .quickconnet, auto insert black space after <br>.
     var div = document.getElementsByClassName('quickcontent')[0];
