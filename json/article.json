@@ -1,4 +1,5 @@
-[{
+{
+"firedisaster":{
 	"page": "firedisaster",
 	"title": "急救",
 	"published": "2025/4/28",
@@ -47,4 +48,5 @@
 			]
 		}
 	]
-}]
+}
+}
