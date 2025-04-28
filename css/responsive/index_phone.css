@@ -29,10 +29,15 @@ nav>ul>li{line-height: 140%;margin: 0 20px; font-weight:normal;}
     overflow: hidden;
 }
 /* .FEATURED*/
-.featured>ul>li{width: 48%;}
-.featured li>div{height: auto;}
-.featured>ul>li>div p:last-child{position:static; padding-bottom: 0;}
-.featured ul li a img{border-radius: 8px;border: none; overflow: hidden;}
+.featured>ul{
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr); 
+    gap: 8px;
+}
+.featured>ul>li{width: 100%;}
+.featured>ul>li div{max-height: 40%;min-height:10%;padding: 4px;}
+.featured h3{color: rgb(212, 212, 212);}
+.featured p{display: none;}
 
 /* .QUICKCONTENT */
 .quickcontent>section:first-child {
