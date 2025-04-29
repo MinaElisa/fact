@@ -23,8 +23,8 @@ a:hover{text-decoration: underline;}
     color: rgb(235, 235, 235);
     border-radius: 4px;
 }
-.timelabel{font-style: italic;font-size: 1em;letter-spacing: 2px;}
-.timelabel:hover{background-color: rgba(0, 0, 0, 0.8);}
+.timelabel{font-style: italic;font-size: 1em;line-height:100%;letter-spacing: 2px;color: gray;}
+.timelabel:hover{background-color: rgba(0, 0, 0, 1);}
 /* ScrollBar */
 ::-webkit-scrollbar{
     width: 10px;

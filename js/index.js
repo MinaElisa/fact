@@ -74,3 +74,49 @@ window.onscroll =()=>{
     }
 }
 
+function renderDataToHTML(data) {
+    const container = document.getElementById('content-container');
+    const pinputContainer = document.getElementById('pinput');
+    
+    // 清空现有内容
+    pinputContainer.innerHTML = '';
+    
+    // 遍历每个类别
+    for (const category in data) {
+        if (data.hasOwnProperty(category)) {
+            // 创建类别容器
+            const categoryDiv = document.createElement('div');
+            categoryDiv.className = `category-container ${category}`;
+            
+            // 添加标题
+            const titleElement = document.createElement('h3');
+            titleElement.className = 'title';
+            titleElement.textContent = data[category].title;
+            categoryDiv.appendChild(titleElement);
+            
+            // 添加作者和日期
+            const metaDiv = document.createElement('div');
+            metaDiv.className = 'meta';
+            metaDiv.innerHTML = `
+                <span class="author">作者: ${data[category].author}</span> | 
+                <span class="date">日期: ${data[category].date}</span>
+            `;
+            categoryDiv.appendChild(metaDiv);
+            
+            container.appendChild(categoryDiv);
+            
+            // 将内容追加到pinput容器
+            data[category].content.forEach(paragraph => {
+                const pElement = document.createElement('p');
+                pElement.className = category;
+                pElement.textContent = paragraph;
+                pinputContainer.appendChild(pElement);
+            });
+        }
+    }
+}
+
+// 页面加载完成后执行渲染
+document.addEventListener('DOMContentLoaded', function() {
+    renderDataToHTML(jsonData);
+});

@@ -25,7 +25,6 @@ main{background-color: rgb(242, 242, 242);}
 .quickcontent .btn-expand{background-color: rgb(159, 161, 163);}
 .quickcontent .btn-expand:hover{background-color: rgb(111, 113, 114);}
 .quickcontent>section:last-child p {color: white;}
-.emergency p{color: black;}
 .emergency a{color: black;}
 /* FOOTER */
 footer{background: rgb(0, 16, 51);}
